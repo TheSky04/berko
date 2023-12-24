@@ -1,0 +1,101 @@
+.footer {
+  background-color: #101d2c;
+  padding: 5rem;
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  color: #aaa;
+}
+
+.footerIconHover:hover {
+  color: #aaa !important;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.footerTitle {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.footerLeft {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding-right: 3rem;
+}
+
+.footerLeft img {
+  margin-bottom: 0 !important;
+}
+
+.footerLeftIcons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: #fff;
+}
+
+.footerLeftText {
+  margin: 1rem 0;
+}
+
+.footerLeftIcons {
+  display: flex;
+  align-items: center;
+}
+
+.footerLeft img {
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+.footerCenter {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  padding-left: 10rem;
+}
+
+.footerCenterLink {
+  font-size: 2rem;
+  color: #aaa;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.footerCenterLink:hover {
+  color: #eee;
+}
+
+.footerCenter ul {
+  list-style-type: none;
+}
+
+.footerCenter li {
+  margin-bottom: 2rem;
+}
+
+.footerRight {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.footerRightIcon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footerRightPhoneNumbers {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 920px) {
+  .footerCenter {
+    padding-left: 0;
+  }
+}

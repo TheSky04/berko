@@ -1,0 +1,30 @@
+.nav {
+  background-color: #101d2c;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+.active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navLink {
+  color: #868e96;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.navLink:hover {
+  color: #e9ecef;
+}
