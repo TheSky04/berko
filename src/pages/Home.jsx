@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SimpleImageSlider from "react-simple-image-slider";
-import { sliderConfigs } from "../config";
+import { configs } from "../config";
 import styles from "../styles/Home.module.css";
 
 function Home() {
@@ -8,9 +8,9 @@ function Home() {
   return (
     <div>
       <SimpleImageSlider
-        width={sliderConfigs.width}
-        height={sliderConfigs.height}
-        images={sliderConfigs.sliderImages}
+        width={configs.sliderWidth}
+        height={configs.sliderHeight}
+        images={configs.sliderImages}
         style={{ backgroundSize: "cover" }}
         showBullets={true}
         showNavs={true}
