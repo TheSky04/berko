@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SimpleImageSlider from "react-simple-image-slider";
 import { configs } from "../config";
 import styles from "../styles/Home.module.css";
+import ControlledAccordions from "../components/ControlledAccordions";
 
 function Home() {
   const [imageNum, setImageNum] = useState(1);
@@ -11,7 +12,7 @@ function Home() {
         width={configs.sliderWidth}
         height={configs.sliderHeight}
         images={configs.sliderImages}
-        style={{ backgroundSize: "cover" }}
+        style={{ backgroundSize: "cover", margin: "50px 0" }}
         showBullets={true}
         showNavs={true}
         autoPlay={true}
@@ -20,6 +21,7 @@ function Home() {
         }}
         autoPlayDelay={3}
       />
+      <ControlledAccordions />
     </div>
   );
 }

@@ -29,6 +29,19 @@ const resources = {
       PhoneNumber2: "0212 630 2904",
       PhoneNumber3: "0212 630 2915",
       Email: "satis@berkomoda.com",
+      FAQ: "Frequently Asking Questions",
+      Question1: "What is the minimum production quantity?",
+      Question2: "How many colors can you produce at most?",
+      Question3: "What is the maximum production size?",
+      Question4: "What is the delivery time?",
+      Question1Text:
+        "The minimum production quantity is usually set at 1000 units. However, we can be flexible with this number depending on the complexity of your project and your specific requirements. Please contact us for more information.",
+      Question2Text:
+        "The production technology of our labels usually allows for up to 8 colors. This allows us to offer a wide range of color options to match your brand's color palette and design needs.",
+      Question3Text:
+        "We offer great flexibility in terms of production sizes. In general, we can easily produce labels up to 20 cm in width. However, we can also produce labels for your special projects. Please contact us to specify your requirements.",
+      Question4Text:
+        "Delivery time can vary depending on the production quantity, dimensions and complexity of the project. Typically, we offer lead times of 2 days for orders of 1000 pieces, extending up to a maximum of 1 week as the order quantity increases. If you have special requirements or need an urgent delivery, you can contact our team to help you with this. For more information about delivery times, please contact us.",
     },
   },
   tr: {
@@ -56,6 +69,19 @@ const resources = {
       PhoneNumber2: "0212 630 2904",
       PhoneNumber3: "0212 630 2915",
       Email: "satis@berkomoda.com",
+      FAQ: "Sıkça Sorulan Sorular",
+      Question1: "Mimimum üretim adedi nedir?",
+      Question2: "En fazla kaç renk üretim yapabiliyorsunuz?",
+      Question3: "En Fazla üretim ebatları nedir?",
+      Question4: "Teslimat süresi nedir?",
+      Question1Text:
+        "Minimum üretim adedi, genellikle 1000 adet olarak belirlenmiştir. Ancak projenizin karmaşıklığına ve özel gereksinimlerinize bağlı olarak bu sayıda esneklik sağlayabiliriz. Daha fazla bilgi için lütfen bizimle iletişime geçin.",
+      Question2Text:
+        "Etiketlerimizin üretim teknolojisi, genellikle 8 renge kadar müsade etmektedir. Bu, markanızın renk paletine ve tasarım ihtiyaçlarına uyum sağlayacak geniş bir yelpazede renk seçeneği sunmamıza olanak tanır.",
+      Question3Text:
+        "Üretim ebatları konusunda büyük bir esneklik sunuyoruz. Genel olarak, en 20 cm'ye kadar olan etiketleri rahatlıkla üretebiliyoruz. Ancak, özel projeleriniz için etiketler üretebiliriz. İhtiyaçlarınızı belirtmek için lütfen bizimle iletişime geçin.",
+      Question4Text:
+        "Teslimat süresi, üretim adedi, boyutlar ve projenin karmaşıklığına bağlı olarak değişebilir. Genellikle, 1000 adetlik siparişler için 2 günken, sipariş miktarı arttıkça en fazla 1 haftaya kadar uzayabilen süreler sunuyoruz. Özel gereksinimleriniz varsa veya acil bir teslimat gerekiyorsa, bu konuda size yardımcı olmak için ekibimizle iletişime geçebilirsiniz. Teslimat süreleri hakkında daha fazla bilgi almak için lütfen bize ulaşın.",
     },
   },
 };

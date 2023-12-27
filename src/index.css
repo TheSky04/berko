@@ -36,3 +36,21 @@ body {
 .rsis-container {
   background-image: cover;
 }
+
+.css-1m4ljmh-MuiTypography-root {
+  font-size: 30px !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  font-size: 30px !important;
+}
+
+.css-1c35hjw-MuiPaper-root-MuiAccordion-root {
+  width: 80% !important;
+  margin: 2rem auto !important;
+}
+
+.css-ahj2mt-MuiTypography-root,
+.css-1pbh695-MuiTypography-root {
+  font-size: 2rem !important;
+}
