@@ -5,6 +5,7 @@ import styles from "../styles/Footer.module.css";
 import { Link } from "react-router-dom";
 import { MdOutlineMail } from "react-icons/md";
 import { FaInstagram, FaFacebook, FaHome, FaPhone } from "react-icons/fa";
+import { configs } from "../config";
 
 function Footer() {
   const { t } = useTranslation();
@@ -15,20 +16,20 @@ function Footer() {
         <img src={BerkoLogo} alt="Berko Logo"></img>
         <p className={styles.footerLeftText}>{t("FooterLeftText")}</p>
         <div className={styles.footerLeftIcons}>
-          <a href="https://www.instagram.com/berkoambalaj/">
+          <Link to={configs.instagramAdress}>
             <FaInstagram
               size={32}
               color="#fff"
               className={styles.footerIconHover}
             />
-          </a>
-          <a href="https://www.facebook.com/O.Bedir29">
+          </Link>
+          <Link to={configs.facebookAdress}>
             <FaFacebook
               size={32}
               color="#fff"
               className={styles.footerIconHover}
             />
-          </a>
+          </Link>
         </div>
       </div>
       <div className={styles.footerCenter}>

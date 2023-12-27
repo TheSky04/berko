@@ -28,3 +28,56 @@
 .navLink:hover {
   color: #e9ecef;
 }
+
+.navTop {
+  background-color: #181818;
+  color: #8f8f8f;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  padding: 2rem 3rem;
+}
+
+.navTopLeft {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  justify-content: space-between;
+}
+
+.navTopLeftEmail {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navTopLeftAddress {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  word-break: break-word;
+}
+
+.navTopCenter {
+}
+
+.navTopCenterSocial {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.navTopCenterSocialInstagram,
+.navTopCenterSocialFacebook {
+  transition: all 0.3s;
+  opacity: 1;
+}
+
+.navTopCenterSocialInstagram:hover,
+.navTopCenterSocialFacebook:hover {
+  opacity: 0.6;
+}

@@ -13,4 +13,8 @@ export const configs = {
     },
   ],
   whatsappNumber: "905352164750",
+  email: "satis@berkomoda.com",
+  address: "Oruçreis Mah. Giyimkent 9.Sokak No:72/A Esenler/İstanbul",
+  instagramAdress: "https://www.instagram.com/berkoambalaj/",
+  facebookAdress: "https://www.facebook.com/O.Bedir29",
 };

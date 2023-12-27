@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import SimpleImageSlider from "react-simple-image-slider";
 import { configs } from "../config";
 import styles from "../styles/Home.module.css";
-import ControlledAccordions from "../components/ControlledAccordions";
+import FAQ from "../components/FAQ";
 
 function Home() {
   const [imageNum, setImageNum] = useState(1);
@@ -21,7 +21,7 @@ function Home() {
         }}
         autoPlayDelay={3}
       />
-      <ControlledAccordions />
+      <FAQ />
     </div>
   );
 }

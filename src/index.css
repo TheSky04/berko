@@ -27,7 +27,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif !important;
 }
 
 body {
@@ -53,4 +53,23 @@ body {
 .css-ahj2mt-MuiTypography-root,
 .css-1pbh695-MuiTypography-root {
   font-size: 2rem !important;
+  font-family: inherit !important;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+  padding: 3rem !important;
+}
+
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 30px !important;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15) !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .css-1c35hjw-MuiPaper-root-MuiAccordion-root {
+    width: 100% !important;
+  }
 }
