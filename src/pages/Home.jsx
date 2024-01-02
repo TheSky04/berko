@@ -4,6 +4,7 @@ import { configs } from "../config";
 import styles from "../styles/Home.module.css";
 import FAQ from "../components/FAQ";
 import ContactForm from "../components/ContactForm";
+import Gallery from "../components/Gallery";
 
 function Home() {
   const [imageNum, setImageNum] = useState(1);
@@ -24,6 +25,7 @@ function Home() {
       />
       <FAQ />
       <ContactForm />
+      <Gallery />
     </div>
   );
 }
