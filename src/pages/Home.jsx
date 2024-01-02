@@ -3,6 +3,7 @@ import SimpleImageSlider from "react-simple-image-slider";
 import { configs } from "../config";
 import styles from "../styles/Home.module.css";
 import FAQ from "../components/FAQ";
+import ContactForm from "../components/ContactForm";
 
 function Home() {
   const [imageNum, setImageNum] = useState(1);
@@ -22,6 +23,7 @@ function Home() {
         autoPlayDelay={3}
       />
       <FAQ />
+      <ContactForm />
     </div>
   );
 }

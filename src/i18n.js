@@ -43,6 +43,14 @@ const resources = {
         "We offer great flexibility in terms of production sizes. In general, we can easily produce labels up to 20 cm in width. However, we can also produce labels for your special projects. Please contact us to specify your requirements.",
       Question4Text:
         "Delivery time can vary depending on the production quantity, dimensions and complexity of the project. Typically, we offer lead times of 2 days for orders of 1000 pieces, extending up to a maximum of 1 week as the order quantity increases. If you have special requirements or need an urgent delivery, you can contact our team to help you with this. For more information about delivery times, please contact us.",
+      ContactUs: "Contact Us",
+      ContactForm: "Contact Form",
+      ContactInputNameSurname: "Name and Surname",
+      ContactInputMail: "Mail Address",
+      ContactInputTopic: "Communication Topic",
+      ContactInputPhone: "Phone",
+      ContactInputMessage: "Your Message",
+      ContactButton: "Send Your Message",
     },
   },
   tr: {
@@ -84,6 +92,14 @@ const resources = {
         "Üretim ebatları konusunda büyük bir esneklik sunuyoruz. Genel olarak, en 20 cm'ye kadar olan etiketleri rahatlıkla üretebiliyoruz. Ancak, özel projeleriniz için etiketler üretebiliriz. İhtiyaçlarınızı belirtmek için lütfen bizimle iletişime geçin.",
       Question4Text:
         "Teslimat süresi, üretim adedi, boyutlar ve projenin karmaşıklığına bağlı olarak değişebilir. Genellikle, 1000 adetlik siparişler için 2 günken, sipariş miktarı arttıkça en fazla 1 haftaya kadar uzayabilen süreler sunuyoruz. Özel gereksinimleriniz varsa veya acil bir teslimat gerekiyorsa, bu konuda size yardımcı olmak için ekibimizle iletişime geçebilirsiniz. Teslimat süreleri hakkında daha fazla bilgi almak için lütfen bize ulaşın.",
+      ContactUs: "Bize Ulaşın",
+      ContactForm: "İletişim Formu",
+      ContactInputNameSurname: "Adınız Soyadınız",
+      ContactInputMail: "Mail Adresiniz",
+      ContactInputTopic: "İletişim Konusu",
+      ContactInputPhone: "Telefon",
+      ContactInputMessage: "Mesajınız",
+      ContactButton: "Mesajı Gönder",
     },
   },
 };

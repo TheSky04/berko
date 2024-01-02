@@ -5,7 +5,6 @@ import LanguageButtons from "./LanguageButtons";
 import styles from "../styles/Navbar.module.css";
 import { configs } from "../config";
 import { FiMail } from "react-icons/fi";
-import {} from "react-icons/fa";
 import { FaInstagram, FaFacebook, FaMapMarkerAlt } from "react-icons/fa";
 
 function Navbar() {
