@@ -5,10 +5,34 @@ import LanguageButtons from "./LanguageButtons";
 import styles from "../styles/Navbar.module.css";
 import { configs } from "../config";
 import { FiMail } from "react-icons/fi";
-import { FaInstagram, FaFacebook, FaMapMarkerAlt } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaMapMarkerAlt,
+  FaBars,
+  FaTimes,
+} from "react-icons/fa";
+import BerkoLogo from "../assets/berkologo.png";
+import { useState, useEffect } from "react";
 
 function Navbar() {
   const { t } = useTranslation();
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () =>
+      window.innerWidth < 1000 ? setIsMobile(true) : setIsMobile(false);
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const handleMenuOpen = () => {
+    console.log("okey");
+  };
 
   return (
     <>
@@ -43,51 +67,66 @@ function Navbar() {
         </div>
       </div>
       <nav className={styles.nav}>
-        <div className={styles.navLeft}>
-          <NavLink
-            to="/"
-            className={({ isActive }) =>
-              isActive ? styles.active : styles.navLink
-            }
-          >
-            {t("Home")}
-          </NavLink>
-          <NavLink
-            to="/about"
-            className={({ isActive }) =>
-              isActive ? styles.active : styles.navLink
-            }
-          >
-            {t("About")}
-          </NavLink>
-          <NavLink
-            to="/contact"
-            className={({ isActive }) =>
-              isActive ? styles.active : styles.navLink
-            }
-          >
-            {t("Contact")}
-          </NavLink>
-          <NavLink
-            to="/products"
-            className={({ isActive }) =>
-              isActive ? styles.active : styles.navLink
-            }
-          >
-            {t("Products")}
-          </NavLink>
-          <NavLink
-            to="/production"
-            className={({ isActive }) =>
-              isActive ? styles.active : styles.navLink
-            }
-          >
-            {t("Production")}
-          </NavLink>
+        <div className={styles.navLogo}>
+          <img src={BerkoLogo} alt="berko logo" />
         </div>
-        <div className={styles.navRight}>
-          <LanguageButtons />
-        </div>
+        {!isMobile && (
+          <div className={styles.navLeft}>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? styles.active : styles.navLink
+              }
+            >
+              {t("Home")}
+            </NavLink>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? styles.active : styles.navLink
+              }
+            >
+              {t("About")}
+            </NavLink>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                isActive ? styles.active : styles.navLink
+              }
+            >
+              {t("Contact")}
+            </NavLink>
+            <NavLink
+              to="/products"
+              className={({ isActive }) =>
+                isActive ? styles.active : styles.navLink
+              }
+            >
+              {t("Products")}
+            </NavLink>
+            <NavLink
+              to="/production"
+              className={({ isActive }) =>
+                isActive ? styles.active : styles.navLink
+              }
+            >
+              {t("Production")}
+            </NavLink>
+          </div>
+        )}
+
+        {!isMobile && (
+          <div className={styles.navRight}>
+            <LanguageButtons />
+          </div>
+        )}
+
+        {isMobile && (
+          <div className={styles.iconContainer}>
+            <FaBars className={styles.menuIcon} onClick={handleMenuOpen} />
+            <FaTimes className={styles.closeIcon} />
+          </div>
+        )}
       </nav>
     </>
   );
