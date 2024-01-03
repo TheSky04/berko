@@ -177,6 +177,14 @@ body {
   width: 4rem;
   display: none;
   color: #fff;
+  transition: all 0.3s;
+  position: fixed;
+  top: 3rem;
+  right: 3rem;
+}
+
+.closeIcon:hover {
+  opacity: 0.8;
 }
 
 @media only screen and (max-width: 1000px) {
