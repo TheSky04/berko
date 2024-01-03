@@ -94,6 +94,7 @@ function Navbar() {
           >
             {t("Production")}
           </NavLink>
+          <LanguageButtons className="handleLanguageButtons" />
         </div>
 
         <div className="navRight">

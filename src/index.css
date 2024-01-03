@@ -187,6 +187,10 @@ body {
   opacity: 0.8;
 }
 
+.handleLanguageButtons {
+  display: none;
+}
+
 @media only screen and (max-width: 1000px) {
   .nav {
     justify-content: space-between;
@@ -294,6 +298,10 @@ body {
 
   .nav-open .active {
     color: #181818;
+  }
+
+  .nav-open .handleLanguageButtons {
+    display: block;
   }
 
   .navLeft {
