@@ -18,9 +18,8 @@ function Navbar() {
 
   const headerEl = document.querySelector(".header");
 
-  const handleMenuOpen = function () {
+  const handleMenuToggle = function () {
     headerEl.classList.toggle("nav-open");
-    console.log(headerEl);
   };
 
   return (
@@ -63,30 +62,35 @@ function Navbar() {
           <NavLink
             to="/"
             className={({ isActive }) => (isActive ? "active" : "navLink")}
+            onClick={handleMenuToggle}
           >
             {t("Home")}
           </NavLink>
           <NavLink
             to="/about"
             className={({ isActive }) => (isActive ? "active" : "navLink")}
+            onClick={handleMenuToggle}
           >
             {t("About")}
           </NavLink>
           <NavLink
             to="/contact"
             className={({ isActive }) => (isActive ? "active" : "navLink")}
+            onClick={handleMenuToggle}
           >
             {t("Contact")}
           </NavLink>
           <NavLink
             to="/products"
             className={({ isActive }) => (isActive ? "active" : "navLink")}
+            onClick={handleMenuToggle}
           >
             {t("Products")}
           </NavLink>
           <NavLink
             to="/production"
             className={({ isActive }) => (isActive ? "active" : "navLink")}
+            onClick={handleMenuToggle}
           >
             {t("Production")}
           </NavLink>
@@ -95,7 +99,7 @@ function Navbar() {
         <div className="navRight">
           <LanguageButtons />
         </div>
-        <div className="iconContainer" onClick={handleMenuOpen}>
+        <div className="iconContainer" onClick={handleMenuToggle}>
           <FaBars className="menuIcon" />
           <FaTimes className="closeIcon" />
         </div>
