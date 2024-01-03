@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import LanguageButtons from "./LanguageButtons";
 import { configs } from "../config";
 import { FiMail } from "react-icons/fi";
+import { useState } from "react";
 import {
   FaInstagram,
   FaFacebook,
@@ -15,11 +16,13 @@ import BerkoLogo from "../assets/berkologo.png";
 
 function Navbar() {
   const { t } = useTranslation();
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
   const headerEl = document.querySelector(".header");
 
   const handleMenuToggle = function () {
     headerEl.classList.toggle("nav-open");
+    setIsNavOpen((previousState) => !previousState);
   };
 
   return (
@@ -94,7 +97,7 @@ function Navbar() {
           >
             {t("Production")}
           </NavLink>
-          <LanguageButtons className="handleLanguageButtons" />
+          {isNavOpen && <LanguageButtons />}
         </div>
 
         <div className="navRight">
