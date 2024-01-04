@@ -13,7 +13,7 @@
 }
 
 .gallery {
-  padding: 5rem;
+  padding: 10rem;
   background-color: #e3e3e3;
 }
 
@@ -24,11 +24,13 @@
 }
 
 .gallery img {
-  width: 40vw;
+  width: 100%;
 }
 
-.gallery img:nth-child(odd) {
-  justify-self: right;
+@media only screen and (max-width: 1000px) {
+  .gallery {
+    padding: 5rem;
+  }
 }
 
 @media only screen and (max-width: 515px) {
