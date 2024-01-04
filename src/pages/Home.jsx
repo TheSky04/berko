@@ -10,7 +10,7 @@ function Home() {
   const [imageNum, setImageNum] = useState(1);
   return (
     <div>
-      {/* <SimpleImageSlider
+      <SimpleImageSlider
         width={configs.sliderWidth}
         height={configs.sliderHeight}
         images={configs.sliderImages}
@@ -22,7 +22,7 @@ function Home() {
           setImageNum(index);
         }}
         autoPlayDelay={3}
-      /> */}
+      />
       <FAQ />
       <ContactForm />
       <Gallery />
