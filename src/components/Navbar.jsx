@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import LanguageButtons from "./LanguageButtons";
 import { configs } from "../config";
 import { FiMail } from "react-icons/fi";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   FaInstagram,
   FaFacebook,
@@ -16,17 +16,20 @@ import BerkoLogo from "../assets/berkologo.png";
 
 function Navbar() {
   const { t } = useTranslation();
-  const [isNavOpen, setIsNavOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+  const [navOpen, setNavOpen] = useState("");
 
-  const headerEl = document.querySelector(".header");
+  useEffect(() => {
+    const screenWidth = window.innerWidth;
+    screenWidth < 768 ? setIsMobile(true) : setIsMobile(false);
+  }, []);
 
   const handleMenuToggle = function () {
-    headerEl.classList.toggle("nav-open");
-    setIsNavOpen((previousState) => !previousState);
+    navOpen === "" ? setNavOpen("nav-open") : setNavOpen("");
   };
 
   return (
-    <header className="header">
+    <header className={`${navOpen} header`}>
       <div className="navTop">
         <div className="navTopLeft">
           <div className="navTopLeftEmail">
@@ -97,7 +100,7 @@ function Navbar() {
           >
             {t("Production")}
           </NavLink>
-          {isNavOpen && <LanguageButtons />}
+          {isMobile && <LanguageButtons />}
         </div>
 
         <div className="navRight">

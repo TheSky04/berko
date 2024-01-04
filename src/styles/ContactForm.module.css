@@ -90,19 +90,19 @@
 }
 
 @media only screen and (max-width: 750px) {
-  .contactFormImgContainer {
+  .contactFormImgContainer img {
     max-width: 40rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .contactFormImgContainer {
+  .contactFormImgContainer img {
     max-width: 30rem;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .contactFormImgContainer {
+  .contactFormImgContainer img {
     max-width: 25rem;
   }
 }
