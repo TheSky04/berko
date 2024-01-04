@@ -314,6 +314,16 @@ body {
   }
 }
 
+@media only screen and (max-width: 850px) {
+  html {
+    font-size: 55%;
+  }
+
+  .navTopLeft {
+    margin-bottom: 1rem;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .css-1c35hjw-MuiPaper-root-MuiAccordion-root {
     width: 100% !important;
@@ -322,4 +332,20 @@ body {
   .navLogo img {
     width: 150px;
   }
+
+  html {
+    font-size: 50%;
+  }
 }
+
+@media only screen and (max-width: 440px) {
+  html {
+    font-size: 34.375%;
+  }
+}
+
+/* @media only screen and (max-width: 370px) {
+  html {
+    font-size: 20%;
+  }
+} */

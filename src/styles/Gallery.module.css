@@ -1,3 +1,17 @@
+.galleryTitle {
+  margin-bottom: 5rem;
+}
+
+.galleryTitle p {
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: #876c6a;
+}
+
+.galleryTitle h4 {
+  font-size: 4rem;
+}
+
 .gallery {
   padding: 5rem;
   background-color: #e3e3e3;
@@ -15,4 +29,18 @@
 
 .gallery img:nth-child(odd) {
   justify-self: right;
+}
+
+@media only screen and (max-width: 515px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery img:nth-child(odd) {
+    justify-self: left;
+  }
+
+  .gallery img {
+    width: 100%;
+  }
 }

@@ -51,6 +51,8 @@ const resources = {
       ContactInputPhone: "Phone",
       ContactInputMessage: "Your Message",
       ContactButton: "Send Your Message",
+      GalleryTitle: "Our Gallery",
+      GallerySubTitle: "Some Pictures in our Office",
     },
   },
   tr: {
@@ -100,6 +102,8 @@ const resources = {
       ContactInputPhone: "Telefon",
       ContactInputMessage: "Mesajınız",
       ContactButton: "Mesajı Gönder",
+      GalleryTitle: "Galerimiz",
+      GallerySubTitle: "Ofisimizden Kareler",
     },
   },
 };
