@@ -25,7 +25,9 @@ function ContactForm() {
             rows="10"
             placeholder={t("ContactInputMessage")}
           ></textarea>
-          <button type="submit">{t("ContactButton")}</button>
+          <button type="submit" className={styles.contactFormButton}>
+            {t("ContactButton")}
+          </button>
         </form>
         <div className={styles.contactFormImgContainer}>
           <img src={ambalaj} alt="berko form" />

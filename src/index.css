@@ -33,50 +33,13 @@ html {
 body {
 }
 
-/* .rsis-container {
-  background-image: cover;
-}
-
-.css-1m4ljmh-MuiTypography-root {
-  font-size: 30px !important;
-}
-
-.css-i4bv87-MuiSvgIcon-root {
-  font-size: 30px !important;
-}
-
-.css-1c35hjw-MuiPaper-root-MuiAccordion-root {
-  width: 80% !important;
-  margin: 2rem auto !important;
-}
-
-.css-ahj2mt-MuiTypography-root,
-.css-1pbh695-MuiTypography-root {
-  font-size: 2rem !important;
-  font-family: inherit !important;
-}
-
-.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
-  padding: 3rem !important;
-}
-
-.css-15v22id-MuiAccordionDetails-root {
-  padding: 30px !important;
-}
-
-.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15) !important;
-} */
-
-/***/
-
 .nav {
   background-color: #101d2c;
   color: #fff;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 5rem;
+  padding: 2rem;
   position: sticky;
   top: 0px;
   z-index: 9999999999;
@@ -84,7 +47,7 @@ body {
 }
 
 .navLogo img {
-  width: 250px;
+  max-width: 200px;
 }
 
 .navLeftContainer {
@@ -97,7 +60,7 @@ body {
   display: flex;
   align-items: center;
   gap: 2rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .active {
@@ -122,7 +85,7 @@ body {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  font-size: 2rem;
+  font-size: 1.6rem;
   padding: 2rem 3rem;
 }
 
@@ -153,6 +116,10 @@ body {
   cursor: pointer;
 }
 
+.navTopCenterSocial a svg {
+  max-width: 3rem;
+}
+
 .navTopCenterSocialInstagram,
 .navTopCenterSocialFacebook {
   transition: all 0.3s;
@@ -173,8 +140,8 @@ body {
 }
 
 .closeIcon {
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
   display: none;
   color: #fff;
   transition: all 0.3s;
@@ -206,8 +173,8 @@ body {
   }
 
   .menuIcon {
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
     color: #fff;
     display: block;
   }
@@ -228,7 +195,7 @@ body {
   }
 
   .navLogo img {
-    width: 200px;
+    max-width: 200px;
   }
 
   /***/
@@ -325,10 +292,6 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
-  .css-1c35hjw-MuiPaper-root-MuiAccordion-root {
-    width: 100% !important;
-  }
-
   .navLogo img {
     width: 150px;
   }
@@ -343,9 +306,3 @@ body {
     font-size: 34.375%;
   }
 }
-
-/* @media only screen and (max-width: 370px) {
-  html {
-    font-size: 20%;
-  }
-} */
