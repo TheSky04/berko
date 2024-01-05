@@ -2,8 +2,10 @@
   background-color: #101d2c;
   padding: 5rem;
   font-size: 1rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
   color: #aaa;
 }
 
@@ -22,7 +24,7 @@
 .footerLeft {
   font-size: 2rem;
   margin-bottom: 2rem;
-  padding-right: 3rem;
+  max-width: 50rem;
 }
 
 .footerLeft img {
@@ -37,7 +39,7 @@
 }
 
 .footerLeftText {
-  margin: 5rem 0;
+  margin: 2rem 0;
 }
 
 .footerLeftIcons {
@@ -53,7 +55,6 @@
 .footerCenter {
   font-size: 1.6rem;
   margin-bottom: 2rem;
-  padding-left: 10rem;
 }
 
 .footerCenterLink {
@@ -92,10 +93,4 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
-}
-
-@media only screen and (max-width: 920px) {
-  .footerCenter {
-    padding-left: 0;
-  }
 }
