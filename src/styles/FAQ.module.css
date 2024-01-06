@@ -91,4 +91,8 @@
   .faqContent {
     justify-items: left;
   }
+
+  .faqContainer {
+    padding: 8rem 5rem;
+  }
 }

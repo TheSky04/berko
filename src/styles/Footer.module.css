@@ -81,6 +81,10 @@
   margin-bottom: 2rem;
 }
 
+.footerRight p {
+  font-size: 1.6rem;
+}
+
 .footerRightIcon {
   display: flex;
   align-items: center;

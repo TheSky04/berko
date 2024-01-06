@@ -27,7 +27,7 @@ export default function ControlledAccordions() {
         }}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon sx={{ fontSize: "2.5rem" }} />}
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
@@ -38,6 +38,7 @@ export default function ControlledAccordions() {
               fontSize: "2rem",
               color: "#181818",
               fontFamily: "inherit",
+              fontWeight: "500",
             }}
           >
             {t("Question1")}
@@ -66,7 +67,7 @@ export default function ControlledAccordions() {
         }}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon sx={{ fontSize: "2.5rem" }} />}
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
@@ -77,6 +78,7 @@ export default function ControlledAccordions() {
               fontSize: "2rem",
               color: "#181818",
               fontFamily: "inherit",
+              fontWeight: "500",
             }}
           >
             {t("Question2")}
@@ -105,7 +107,7 @@ export default function ControlledAccordions() {
         }}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon sx={{ fontSize: "2.5rem" }} />}
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
@@ -116,6 +118,7 @@ export default function ControlledAccordions() {
               fontSize: "2rem",
               color: "#181818",
               fontFamily: "inherit",
+              fontWeight: "500",
             }}
           >
             {t("Question3")}
@@ -144,7 +147,7 @@ export default function ControlledAccordions() {
         }}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon sx={{ fontSize: "2.5rem" }} />}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
@@ -155,6 +158,7 @@ export default function ControlledAccordions() {
               fontSize: "2rem",
               color: "#181818",
               fontFamily: "inherit",
+              fontWeight: "500",
             }}
           >
             {t("Question4")}
