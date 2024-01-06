@@ -1,7 +1,14 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+import MenuBar from "../components/MenuBar";
 
 function Products() {
-  return <div>products</div>;
+  const { t } = useTranslation();
+  return (
+    <div>
+      <MenuBar menu={t("Home")} subMenu={t("Products")} />
+    </div>
+  );
 }
 
 export default Products;

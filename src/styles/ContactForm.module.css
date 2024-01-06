@@ -1,11 +1,13 @@
 .contactAllContainer {
   padding: 10rem;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .contactFormContainer {
-  display: grid;
-  gap: 5rem;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .contactTitle {
@@ -24,14 +26,14 @@
 
 .form {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 30rem 30rem;
   gap: 2rem;
 }
 
 .form input,
 .form textarea {
   font-family: inherit;
-  padding: 3rem 5rem;
+  padding: 1.3rem 2rem;
   background-color: #f3f3f3;
   border: none;
   border-radius: 5px;
@@ -61,25 +63,73 @@
   color: #fff;
   transition: all 0.3s;
   cursor: pointer;
-  padding: 2rem 10rem;
+  padding: 1.5rem 3rem;
   border-radius: 5px;
   font-size: 2rem;
   font-family: inherit;
+  border: none;
 }
 
 .form button:hover {
   opacity: 0.9;
 }
 
-@media only screen and (max-width: 1800px) {
-  .contactFormContainer {
-    grid-template-columns: 1fr;
-  }
+.contactFormContact {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+}
+
+.socialSpan {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: #101d2c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.socialSpan:hover {
+  opacity: 0.9;
+  transform: rotateY(180deg);
+}
+
+.socialIcon {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.contact h3 {
+  font-size: 2rem;
+}
+
+.contact p {
+  font-size: 1.5rem;
+  word-wrap: break-word;
+  width: 100%;
+}
+
+.gap-5 {
+  gap: 5rem;
 }
 
 @media only screen and (max-width: 1800px) {
   .contactAllContainer {
     padding: 5rem;
+  }
+
+  .contactFormImgContainer img {
+    max-width: 40rem;
   }
 }
 
@@ -92,6 +142,14 @@
 @media only screen and (max-width: 750px) {
   .contactFormImgContainer img {
     max-width: 40rem;
+  }
+
+  .contactAllContainer {
+    padding-right: 0rem;
+  }
+
+  .whatsappText {
+    font-size: 1.3rem !important;
   }
 }
 

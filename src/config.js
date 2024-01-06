@@ -12,7 +12,7 @@ export const configs = {
       url: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MY1H2?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1583200307779",
     },
   ],
-  whatsappNumber: "905352164750",
+  whatsappNumber: "905320127185",
   email: "satis@berkomoda.com",
   address: "Oruçreis Mah. Giyimkent 9.Sokak No:72/A Esenler/İstanbul",
   instagramAdress: "https://www.instagram.com/berkoambalaj/",

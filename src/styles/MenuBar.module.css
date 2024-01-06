@@ -1,0 +1,84 @@
+.menuBar {
+  height: 100vh;
+  max-width: 100%;
+  background-color: #7c7c7c;
+  height: 30rem;
+  position: relative;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../assets/recycle.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.menuBar h4 {
+  color: #fff;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.menuTitle {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.menuTitleText {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2rem 4rem;
+  color: #fff;
+  max-width: 30rem;
+  font-size: 1.7rem;
+}
+
+.menuTitle a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.menuTitle a:hover {
+  text-decoration: none;
+  color: #e3e3e3;
+}
+
+@media only screen and (max-width: 650px) {
+  .menuTitle {
+    padding: 1.5rem 3rem;
+  }
+
+  .menuBar h4 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .menuBar {
+    font-size: 1.5rem;
+    height: 20rem;
+  }
+
+  .menuBar h4 {
+    font-size: 3rem;
+  }
+
+  .menuTitle {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+
+  .menuTitleText {
+    padding: 1.2rem 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .menuTitle {
+    font-size: 1.3rem;
+    padding: 1.2rem 2.5rem;
+  }
+}

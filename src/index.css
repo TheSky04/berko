@@ -6,6 +6,13 @@
   position: relative;
 }
 
+.background {
+  background-color: #f1f1f1;
+  background-image: url(assets/line.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
 .notFound {
   background-color: #101d2c;
   font-size: 5rem;
@@ -189,10 +196,6 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
-  }
-
-  .navTopCenterSocial {
-    margin-top: 10px;
   }
 
   .navLogo img {

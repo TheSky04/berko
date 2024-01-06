@@ -53,6 +53,11 @@ const resources = {
       ContactButton: "Send Your Message",
       GalleryTitle: "Our Gallery",
       GallerySubTitle: "Some Pictures in our Office",
+      ContactInformation1: "Contact Information",
+      ContactInformation2: "Address",
+      ContactInformation3: "E-Mail",
+      Phone: "Phone",
+      Whatsapp: "Whatsapp",
     },
   },
   tr: {
@@ -104,6 +109,11 @@ const resources = {
       ContactButton: "Mesajı Gönder",
       GalleryTitle: "Galerimiz",
       GallerySubTitle: "Ofisimizden Kareler",
+      ContactInformation1: "İletişim Bilgilerimiz",
+      ContactInformation2: "Adresimiz",
+      ContactInformation3: "Mail Adresimiz",
+      Phone: "Telefon",
+      Whatsapp: "Whatsapp",
     },
   },
 };
