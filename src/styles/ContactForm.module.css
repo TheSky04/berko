@@ -110,11 +110,11 @@
 }
 
 .contact h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .contact p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   word-wrap: break-word;
   width: 100%;
 }
@@ -146,10 +146,11 @@
 
   .contactAllContainer {
     padding-right: 0rem;
+    padding-left: 1rem;
   }
 
   .whatsappText {
-    font-size: 1.3rem !important;
+    font-size: 1.5rem !important;
   }
 }
 

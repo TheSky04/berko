@@ -58,6 +58,9 @@ const resources = {
       ContactInformation3: "E-Mail",
       Phone: "Phone",
       Whatsapp: "Whatsapp",
+      mapText: "Our Location",
+      mapTitle: "Where Are We ?",
+      WeAreHereText: "We are here!",
     },
   },
   tr: {
@@ -114,6 +117,9 @@ const resources = {
       ContactInformation3: "Mail Adresimiz",
       Phone: "Telefon",
       Whatsapp: "Whatsapp",
+      mapText: "Konumumuz",
+      mapTitle: "Neredeyiz ?",
+      WeAreHereText: "Buradayız !",
     },
   },
 };

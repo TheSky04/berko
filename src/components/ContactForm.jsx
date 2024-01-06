@@ -69,9 +69,7 @@ function ContactForm({ img = true }) {
               <div className={styles.contact}>
                 <h3>{t("ContactInformation2")}</h3>
                 <div className={styles.contactText}>
-                  <p className={styles.whatsappText}>
-                    {t("Whatsapp")}: {configs.address}
-                  </p>
+                  <p className={styles.whatsappText}>{configs.address}</p>
                 </div>
               </div>
             </div>

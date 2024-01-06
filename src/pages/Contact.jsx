@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import MenuBar from "../components/MenuBar";
 import ContactForm from "../components/ContactForm";
+import Location from "../components/Location";
 
 function Contact() {
   const { t } = useTranslation();
@@ -12,6 +13,8 @@ function Contact() {
       <div className="background">
         <ContactForm img={false} />
       </div>
+
+      <Location />
     </div>
   );
 }

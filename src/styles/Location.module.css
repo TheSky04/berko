@@ -1,0 +1,30 @@
+.locationContainer {
+  padding: 5rem;
+  width: 90%;
+  margin: auto;
+}
+
+.mapTitle {
+  margin-bottom: 5rem;
+}
+
+.mapTitle p {
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: #876c6a;
+}
+
+.mapTitle h4 {
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .locationContainer {
+    width: 100%;
+    padding: 0;
+  }
+
+  .mapTitle {
+    margin: 5rem 3rem;
+  }
+}
