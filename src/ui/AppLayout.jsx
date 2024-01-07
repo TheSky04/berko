@@ -4,10 +4,10 @@ import Navbar from "../components/Navbar";
 import { Outlet } from "react-router-dom";
 import Whatsapp from "../components/Whatsapp";
 
-function AppLayout() {
+function AppLayout({ isMobile }) {
   return (
     <div className="layout">
-      <Navbar />
+      <Navbar isMobile={isMobile} />
       <Outlet />
       <Footer />
       <Whatsapp />

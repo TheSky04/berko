@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import LanguageButtons from "./LanguageButtons";
 import { configs } from "../config";
 import { FiMail } from "react-icons/fi";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
   FaInstagram,
   FaFacebook,
@@ -14,15 +14,10 @@ import {
 } from "react-icons/fa";
 import BerkoLogo from "../assets/berkologo.png";
 
-function Navbar() {
+function Navbar({ isMobile }) {
   const { t } = useTranslation();
-  const [isMobile, setIsMobile] = useState(false);
-  const [navOpen, setNavOpen] = useState("");
 
-  useEffect(() => {
-    const screenWidth = window.innerWidth;
-    screenWidth < 768 ? setIsMobile(true) : setIsMobile(false);
-  }, []);
+  const [navOpen, setNavOpen] = useState("");
 
   const handleMenuToggle = function () {
     navOpen === "" ? setNavOpen("nav-open") : setNavOpen("");
