@@ -1,0 +1,46 @@
+.stationaryContainer {
+  padding: 2rem 10rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.stationaryContainer h4 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.stationaryContainer p {
+  font-size: 1.7rem;
+}
+
+.stationaryFeatures {
+  padding: 4rem 10rem;
+}
+
+.stationaryFeatures h4 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.stationaryFeatures p {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .stationaryContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .stationaryContainer {
+    padding: 3rem;
+  }
+
+  .stationaryFeatures {
+    padding: 3rem;
+  }
+}

@@ -94,6 +94,26 @@ const resources = {
       ProductPackagingMaterialsText:
         "The right address for storing your products safely and perfect presentations! We offer both aesthetic and functional solutions with our packaging materials. Find the most suitable packaging for your products with us. Click now to meet and discover quality and affordable prices!",
       Discover: " Click to discover !",
+      StationaryPageMainText:
+        "We need stationery in our lives, from education to business life, from daily routine to special projects. These tools undertake many functions, from expressing our thoughts to organizing our ideas. However, in addition to the right tools, quality, speed and trust are also important. While we help you complete your projects without any disruptions with our quality products, we also enable you to use your time more effectively with our fast delivery. We offer solutions that suit your needs with our wide product range. We are with you in your search for quality and reliability!",
+      StationaryPageSubTitle1:
+        "Product Quality: Guarantee Your Success with Quality Stationery!",
+      StationaryPageSubText1:
+        "We choose only the best among stationery supplies. Each of our products is produced with carefully selected materials to be long-lasting and useful. Trust our quality and complete your work with the best equipment.",
+      StationaryPageSubTitle2:
+        "Fast Delivery: Don't Disrupt Your Work with On-Time Delivery!",
+      StationaryPageSubText2:
+        "From the moment you place your order, your stationery items are packaged and shipped as quickly as possible. Thanks to our fast delivery approach, avoid disruptions in your work and complete your projects on time.",
+      StationaryPageSubTitle3:
+        "Reliability: The Stationery Brand You Trust: Berko!",
+      StationaryPageSubText3:
+        "Customer satisfaction is of paramount importance to us. We are here to meet your stationery needs for a reliable shopping experience. Join our thousands of satisfied customers and enjoy shopping.",
+      StationaryPageSubTitle4:
+        "Wide Product Range: Stationery Suitable for Every Need",
+      StationaryPageSubText4:
+        "All kinds of stationery you may need for office, school or home are here! We meet all your stationery needs with our wide range of products, from pens to notebooks, from files to labels.",
+      StationaryGalleryTitle: "Our Stationery Products",
+      StationaryGallerySubTitle: "Our products",
     },
   },
   tr: {
@@ -185,6 +205,26 @@ const resources = {
       ProductPackagingMaterialsText:
         "Ürünlerinizi güvenle saklamak ve mükemmel sunumlar için doğru adres! Ambalaj malzemelerimizle hem estetik hem de fonksiyonel çözümler sunuyoruz. Ürünleriniz için en uygun ambalajı bizimle bulun. Kalite ve uygun fiyatlarla tanışmak ve",
       Discover: " Keşfetmek için Tıklayın !",
+      StationaryPageMainText:
+        "Hayatımızda eğitimden iş yaşamına, günlük rutinden özel projelere kadar kırtasiye malzemelerine ihtiyaç duyarız. Bu araçlar, düşüncelerimizi ifade etmekten, fikirlerimizi organize etmeye kadar birçok işlevi üstlenir. Ancak, doğru araçların yanı sıra kalite, hız ve güven de önemlidir. Biz, kaliteli ürünlerimizle, projelerinizin aksamadan tamamlanmasına yardımcı olurken, hızlı teslimatımızla da zamanınızı daha etkili kullanmanızı sağlıyoruz. Geniş ürün yelpazemizle ihtiyaçlarınıza uygun çözümler sunuyoruz. Kalite ve güvenilirlik arayışınızda, yanınızdayız!",
+      StationaryPageSubTitle1:
+        "Ürün Kalitesi: Kaliteli Kırtasiye Malzemeleriyle Başarınızı Garantileyin!",
+      StationaryPageSubText1:
+        "Kırtasiye malzemeleri arasında sadece en iyisini seçiyoruz. Her bir ürünümüz, uzun ömürlü ve kullanışlı olması için özenle seçilmiş malzemelerle üretilmektedir. Kalitemize güvenin ve işlerinizi en iyi ekipmanlarla tamamlayın.",
+      StationaryPageSubTitle2:
+        "Hızlı Teslimat: Zamanında Teslimatla İşlerinizi Aksatmayın!",
+      StationaryPageSubText2:
+        "Sipariş verdiğiniz andan itibaren, kırtasiye malzemeleriniz en hızlı şekilde paketlenip kargoya verilir. Hızlı teslimat anlayışımız sayesinde, işlerinizdeki aksaklıkları önleyin ve projelerinizi zamanında tamamlayın.",
+      StationaryPageSubTitle3:
+        "Güvenilirlik: Güvendiğiniz Kırtasiye Markası: Berko!",
+      StationaryPageSubText3:
+        "Müşteri memnuniyeti bizim için her şeyden önemlidir. Güvenilir bir alışveriş deneyimi için, kırtasiye ihtiyaçlarınızı karşılamak üzere buradayız. Siz de binlerce memnun müşterimiz arasına katılın ve alışverişin keyfini çıkarın.",
+      StationaryPageSubTitle4:
+        "Geniş Ürün Yelpazesi: Her İhtiyaca Uygun Kırtasiye Malzemeleri",
+      StationaryPageSubText4:
+        "Ofis, okul ya da ev için ihtiyaç duyabileceğiniz her türlü kırtasiye malzemesi burada! Kalemlerden defterlere, dosyalardan etiketlere kadar geniş ürün yelpazemizle, tüm kırtasiye ihtiyaçlarınızı karşılıyoruz.",
+      StationaryGalleryTitle: "Kırtasiye Ürünlerimiz",
+      StationaryGallerySubTitle: "Ürünlerimiz",
     },
   },
 };
