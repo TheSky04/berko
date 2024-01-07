@@ -6,7 +6,7 @@ import nature from "../assets/background-tree.jpg";
 import recycle from "../assets/recycle2.jpg";
 import stationary from "../assets/stationary.jpg";
 import packagingMaterials from "../assets/packaging.webp";
-import textileConsumables from "../assets/textileConsumables.webp";
+import textile from "../assets/tekstil.jpg";
 
 function About() {
   const { t } = useTranslation();
@@ -52,10 +52,7 @@ function About() {
           />
         </div>
         <div className={styles.aboutTopContainer}>
-          <img
-            src={textileConsumables}
-            alt="berko produce textile consumables products"
-          />
+          <img src={textile} alt="berko produce textile consumables products" />
           <div className={styles.aboutTopContent}>
             <h4>{t("AboutTitle5")}</h4>
             <p>{t("AboutText5")} </p>

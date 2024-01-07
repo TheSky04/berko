@@ -82,6 +82,18 @@ const resources = {
         "Our packaging materials, designed to protect the safety and aesthetics of your products, offer solutions that meet the needs of the industry. We produce special packaging solutions for our customers from different sectors and ensure that your products are presented to consumers in a safe and impressive way.",
       AboutText5:
         "We make our production more efficient and of higher quality with our consumables suitable for the dynamic structure of the textile industry. With our high quality and durable materials, we offer the products you need at the most affordable prices at every stage of textile production.",
+      ProductsSubTitle: "Our Products",
+      ProductsMainTitle: "What Do We Produce ?",
+      Stationary: "Stationary Products",
+      TextileConsumableProducts: "Textile Consumable Products",
+      packagingMaterials: "Packaging Materials",
+      ProductStationaryText:
+        "The address of quality in stationery materials! With our innovative designs, we offer ideal products for everyone, from students to professionals. Make your work easier with quality and durable stationery products. Click to Discover!",
+      ProductTextileConsumableText:
+        "The best quality consumables are here for those who seek perfection in the textile industry! Whether you own a large workshop or produce projects at home, you will find everything you need with us. Choose us for quality and diversity. Click now to discover!",
+      ProductPackagingMaterialsText:
+        "The right address for storing your products safely and perfect presentations! We offer both aesthetic and functional solutions with our packaging materials. Find the most suitable packaging for your products with us. Click now to meet and discover quality and affordable prices!",
+      Discover: " Click to discover !",
     },
   },
   tr: {
@@ -161,6 +173,18 @@ const resources = {
         "Ürünlerinizin güvenliğini ve estetiğini korumak için tasarlanan ambalaj malzemelerimiz, sektörün ihtiyaçlarına uygun çözümler sunar. Farklı sektörlerden müşterilerimize özel ambalaj çözümleri üretiyor, ürünlerinizin hem güvenli hem de etkileyici bir şekilde tüketicilere sunulmasını sağlıyoruz.",
       AboutText5:
         "Tekstil sektörünün dinamik yapısına uygun sarf malzemelerimizle, üretimimizi daha verimli ve kaliteli hale getiriyoruz. Yüksek kaliteli ve dayanıklı malzemelerimizle, tekstil üretiminin her aşamasında ihtiyaç duyduğunuz ürünleri en uygun fiyatlarla sunuyoruz.",
+      ProductsSubTitle: "Ürünlerimiz",
+      ProductsMainTitle: "Ne Üretiyoruz ?",
+      Stationary: "Kırtasiye Malzemeleri",
+      TextileConsumableProducts: "Tekstil Sarf Malzemeleri",
+      packagingMaterials: "Ambalaj Malzemeleri",
+      ProductStationaryText:
+        "Kırtasiye malzemelerinde kalitenin adresi! Yenilikçi tasarımlarımızla öğrencilerden profesyonellere kadar herkes için ideal ürünler sunuyoruz. Siz de kaliteli ve dayanıklı kırtasiye ürünleriyle işlerinizi kolaylaştırın.",
+      ProductTextileConsumableText:
+        "Tekstil sektöründe mükemmeliyet arayışında olanlar için en kaliteli sarf malzemeleri burada! İster büyük bir atölye sahibi olun, isterse evde projeler üretin, ihtiyacınız olan her şeyi bizde bulacaksınız. Kalite ve çeşitlilik için bizi tercih edin.",
+      ProductPackagingMaterialsText:
+        "Ürünlerinizi güvenle saklamak ve mükemmel sunumlar için doğru adres! Ambalaj malzemelerimizle hem estetik hem de fonksiyonel çözümler sunuyoruz. Ürünleriniz için en uygun ambalajı bizimle bulun. Kalite ve uygun fiyatlarla tanışmak ve",
+      Discover: " Keşfetmek için Tıklayın !",
     },
   },
 };
