@@ -7,14 +7,14 @@ function ProductCart({ img, title, text, to }) {
   const { t } = useTranslation();
   return (
     <div className={styles.productCardContainer}>
-      <div className={styles.productCard}>
+      <Link className={styles.productCard} to={to}>
         <img src={img} alt="berko produce stationary products" />
         <div className={styles.productCartContent}>
           <h4>{title}</h4>
           <p>{text}</p>
-          <Link to={to}>{t("Discover")}</Link>
+          <p className={styles.discover}>{t("Discover")}</p>
         </div>
-      </div>
+      </Link>
     </div>
   );
 }

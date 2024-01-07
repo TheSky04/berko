@@ -27,15 +27,17 @@ function Products() {
         />
 
         <ProductCart
-          img={textile}
-          title={t("TextileConsumableProducts")}
-          text={t("ProductTextileConsumableText")}
-        />
-
-        <ProductCart
           img={packaging}
           title={t("packagingMaterials")}
           text={t("ProductPackagingMaterialsText")}
+          to="/products/packaging-materials"
+        />
+
+        <ProductCart
+          img={textile}
+          title={t("TextileConsumableProducts")}
+          text={t("ProductTextileConsumableText")}
+          to="/products/textile-consumables"
         />
       </div>
     </div>

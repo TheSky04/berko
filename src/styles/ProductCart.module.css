@@ -14,6 +14,8 @@
 
   background-color: #fff;
   margin-bottom: 5rem;
+  text-decoration: none;
+  color: #000;
 }
 
 .productCard:hover {
@@ -39,7 +41,7 @@
   margin-bottom: 1rem;
 }
 
-.productCartContent a {
+.discover {
   text-decoration: none;
   font-size: 2rem;
   color: #1864ab;

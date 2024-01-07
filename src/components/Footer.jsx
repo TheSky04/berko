@@ -46,18 +46,24 @@ function Footer() {
         <h2 className={styles.footerTitle}>{t("FooterTitle")}</h2>
         <ul>
           <li>
-            <Link to="/packaging-materials" className={styles.footerCenterLink}>
+            <Link to="/products/stationary" className={styles.footerCenterLink}>
+              {t("StationaryTitle")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/products/packaging-materials"
+              className={styles.footerCenterLink}
+            >
               {t("PackagingMaterialsTitle")}
             </Link>
           </li>
           <li>
-            <Link to="/textile-consumables" className={styles.footerCenterLink}>
+            <Link
+              to="/products/textile-consumables"
+              className={styles.footerCenterLink}
+            >
               {t("TextileConsumablesTitle")}
-            </Link>
-          </li>
-          <li>
-            <Link to="/stationary" className={styles.footerCenterLink}>
-              {t("StationaryTitle")}
             </Link>
           </li>
         </ul>
