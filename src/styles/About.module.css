@@ -76,17 +76,18 @@
 @media only screen and (max-width: 600px) {
   .aboutFirstTopTitleContainer {
     padding-right: 0rem;
-    padding-left: 2rem;
+    padding-left: 6rem;
   }
 
   .aboutTopContainer {
     padding-right: 0rem;
     padding-left: 2rem;
+    width: 90%;
   }
 
   .aboutFlexContainer img,
   .aboutTopContainer img {
-    max-width: 55rem;
+    width: 100%;
   }
 
   .aboutTopContent {
@@ -97,13 +98,13 @@
 @media only screen and (max-width: 500px) {
   .aboutFlexContainer img,
   .aboutTopContainer img {
-    max-width: 50rem;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .aboutFlexContainer img,
   .aboutTopContainer img {
-    max-width: 40rem;
+    width: 100%;
   }
 }
