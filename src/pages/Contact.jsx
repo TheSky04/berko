@@ -13,7 +13,6 @@ function Contact() {
       <div className="background">
         <ContactForm img={false} />
       </div>
-
       <Location />
     </div>
   );

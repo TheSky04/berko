@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import styles from "../styles/ContactForm.module.css";
-import ambalaj from "../assets/berkoo.png";
+import berkologo from "../assets/berkologo-black.png";
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 import { configs } from "../config";
 
@@ -37,7 +37,7 @@ function ContactForm({ img = true }) {
         </form>
         {img && (
           <div className={styles.contactFormImgContainer}>
-            <img src={ambalaj} alt="berko form" />
+            <img src={berkologo} alt="berko form" />
           </div>
         )}
         {!img && (

@@ -49,7 +49,7 @@ export default function ControlledAccordions() {
             sx={{
               width: "100%",
               flexShrink: 0,
-              fontSize: "1.5rem",
+              fontSize: "1.8rem",
               fontFamily: "inherit",
             }}
           >
@@ -89,7 +89,7 @@ export default function ControlledAccordions() {
             sx={{
               width: "100%",
               flexShrink: 0,
-              fontSize: "1.5rem",
+              fontSize: "1.8rem",
               fontFamily: "inherit",
             }}
           >
@@ -129,7 +129,7 @@ export default function ControlledAccordions() {
             sx={{
               width: "100%",
               flexShrink: 0,
-              fontSize: "1.5rem",
+              fontSize: "1.8rem",
               fontFamily: "inherit",
             }}
           >
@@ -169,7 +169,7 @@ export default function ControlledAccordions() {
             sx={{
               width: "100%",
               flexShrink: 0,
-              fontSize: "1.5rem",
+              fontSize: "1.8rem",
               fontFamily: "inherit",
             }}
           >

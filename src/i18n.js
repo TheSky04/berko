@@ -61,6 +61,27 @@ const resources = {
       mapText: "Our Location",
       mapTitle: "Where Are We ?",
       WeAreHereText: "We are here!",
+      AboutMainTitle: "Who Are We and What Do We Produce? ",
+      AboutSubTitle: "About Us",
+      AboutTitle1:
+        "We are Environmentally Friendly: A Vision to Protect Nature and the Future",
+      AboutTitle2: "We Support Recycling: Sustainable Production Concept",
+      AboutTitle3:
+        "Stationery Supplies: Indispensable for the Business and Education World",
+      AboutTitle4:
+        "Packaging Materials: The Art of Protecting and Promoting Your Products",
+      AboutTitle5:
+        "Textile Consumables: A Journey to Improve the Quality of Production",
+      AboutText1:
+        "As Berko Ambalaj, we attach great importance to the protection of nature and the future. We develop various strategies and practices to minimize our environmental impact and act with a sustainable production process. By encouraging recycling, we ensure the reuse of waste and aim to minimize the damage we cause to nature.",
+      AboutText2:
+        "Recycling is a principle at the heart of our production processes. We develop effective solutions for waste management and ensure that used materials are reprocessed and incorporated into production processes. In this way, we both protect natural resources and contribute to the economy.",
+      AboutText3:
+        "Our stationery products, which appeal to a wide range of users from offices to schools, combine functionality and aesthetics. With our stationery products designed to make your daily work easier, you can find all the consumables you need for your offices and educational institutions under one roof.",
+      AboutText4:
+        "Our packaging materials, designed to protect the safety and aesthetics of your products, offer solutions that meet the needs of the industry. We produce special packaging solutions for our customers from different sectors and ensure that your products are presented to consumers in a safe and impressive way.",
+      AboutText5:
+        "We make our production more efficient and of higher quality with our consumables suitable for the dynamic structure of the textile industry. With our high quality and durable materials, we offer the products you need at the most affordable prices at every stage of textile production.",
     },
   },
   tr: {
@@ -120,6 +141,26 @@ const resources = {
       mapText: "Konumumuz",
       mapTitle: "Neredeyiz ?",
       WeAreHereText: "Buradayız !",
+      AboutMainTitle: "Biz Kimiz ve Ne Üretiyoruz ? ",
+      AboutSubTitle: "Hakkımızda",
+      AboutTitle1: "Çevre Dostuyuz: Doğayı ve Geleceği Koruma Vizyonu",
+      AboutTitle2:
+        "Geri Dönüşümü Destekliyoruz: Sürdürülebilir Üretim Anlayışı",
+      AboutTitle3:
+        "Kırtasiye Malzemeleri: İş ve Eğitim Dünyasının Vazgeçilmezi",
+      AboutTitle4: "Ambalaj Malzemeleri: Ürünlerinizi Koruma ve Tanıtma Sanatı",
+      AboutTitle5:
+        "Tekstil Sarf Malzemeleri: Üretimin Kalitesini Artırma Yolculuğu",
+      AboutText1:
+        "Berko Ambalaj olarak, doğanın ve geleceğin korunmasına büyük bir önem veriyoruz. Çevresel etkimizi en aza indirgemek ve sürdürülebilir bir üretim süreciyle hareket etmek için çeşitli stratejiler ve uygulamalar geliştiriyoruz. Geri dönüşümü teşvik ederek, atıkların yeniden kullanılmasını sağlıyor ve doğaya verdiğimiz zararı en aza indirgemeyi hedefliyoruz.",
+      AboutText2:
+        "Geri dönüşüm, üretim süreçlerimizin merkezinde bulunan bir ilkedir. Atık yönetimi konusunda etkin çözümler geliştiriyor, kullanılmış malzemelerin yeniden işlenerek üretim süreçlerine kazandırılmasını sağlıyoruz. Bu sayede hem doğal kaynakları koruyor hem de ekonomiye katkı sağlıyoruz.",
+      AboutText3:
+        "Ofislerden okullara kadar geniş bir kullanıcı kitlesine hitap eden kırtasiye ürünlerimiz, fonksiyonelliği ve estetiği bir araya getiriyor. Günlük işlerinizi kolaylaştırmak için tasarlanan kırtasiye ürünlerimizle, ofisleriniz ve eğitim kurumlarınız için ihtiyaç duyduğunuz tüm sarf malzemelerini tek bir çatı altında bulabilirsiniz.",
+      AboutText4:
+        "Ürünlerinizin güvenliğini ve estetiğini korumak için tasarlanan ambalaj malzemelerimiz, sektörün ihtiyaçlarına uygun çözümler sunar. Farklı sektörlerden müşterilerimize özel ambalaj çözümleri üretiyor, ürünlerinizin hem güvenli hem de etkileyici bir şekilde tüketicilere sunulmasını sağlıyoruz.",
+      AboutText5:
+        "Tekstil sektörünün dinamik yapısına uygun sarf malzemelerimizle, üretimimizi daha verimli ve kaliteli hale getiriyoruz. Yüksek kaliteli ve dayanıklı malzemelerimizle, tekstil üretiminin her aşamasında ihtiyaç duyduğunuz ürünleri en uygun fiyatlarla sunuyoruz.",
     },
   },
 };

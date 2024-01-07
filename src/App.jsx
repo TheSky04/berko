@@ -5,7 +5,6 @@ import About from "./pages/about";
 import Contact from "./pages/Contact";
 import Products from "./pages/products";
 import AppLayout from "./ui/AppLayout";
-import Production from "./pages/Production";
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
         { path: "/about", element: <About /> },
         { path: "/contact", element: <Contact /> },
         { path: "/products", element: <Products /> },
-        { path: "/production", element: <Production /> },
       ],
     },
   ]);

@@ -4,11 +4,19 @@ import { useTranslation } from "react-i18next";
 import styles from "../styles/Footer.module.css";
 import { Link } from "react-router-dom";
 import { MdOutlineMail } from "react-icons/md";
-import { FaInstagram, FaFacebook, FaHome, FaPhone } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaHome, FaPhone } from "react-icons/fa";
 import { configs } from "../config";
 
 function Footer() {
   const { t } = useTranslation();
+
+  const iconStyle = {
+    backgroundColor: "#000",
+    width: "5rem",
+    height: "5rem",
+    borderRadius: "50%",
+    padding: "1rem",
+  };
 
   return (
     <footer className={styles.footer}>
@@ -18,13 +26,15 @@ function Footer() {
         <div className={styles.footerLeftIcons}>
           <Link to={configs.instagramAdress}>
             <FaInstagram
+              style={iconStyle}
               size={32}
               color="#fff"
               className={styles.footerIconHover}
             />
           </Link>
           <Link to={configs.facebookAdress}>
-            <FaFacebook
+            <FaFacebookF
+              style={iconStyle}
               size={32}
               color="#fff"
               className={styles.footerIconHover}

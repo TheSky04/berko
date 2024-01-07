@@ -12,6 +12,7 @@
   background-image: url(assets/line.png);
   background-position: center right;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .notFound {

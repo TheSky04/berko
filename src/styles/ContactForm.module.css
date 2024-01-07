@@ -7,6 +7,7 @@
 .contactFormContainer {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -129,7 +130,14 @@
   }
 
   .contactFormImgContainer img {
-    max-width: 40rem;
+    max-width: 60rem;
+    transform: translateY(-30%);
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .contactFormImgContainer img {
+    transform: translateY(0);
   }
 }
 
@@ -141,7 +149,7 @@
 
 @media only screen and (max-width: 750px) {
   .contactFormImgContainer img {
-    max-width: 40rem;
+    max-width: 50rem;
   }
 
   .contactAllContainer {
@@ -156,7 +164,7 @@
 
 @media only screen and (max-width: 600px) {
   .contactFormImgContainer img {
-    max-width: 30rem;
+    max-width: 40rem;
   }
 
   .contactFormButton {
@@ -167,6 +175,6 @@
 
 @media only screen and (max-width: 500px) {
   .contactFormImgContainer img {
-    max-width: 25rem;
+    max-width: 30rem;
   }
 }

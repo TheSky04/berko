@@ -93,13 +93,6 @@ function Navbar() {
           >
             {t("Products")}
           </NavLink>
-          <NavLink
-            to="/production"
-            className={({ isActive }) => (isActive ? "active" : "navLink")}
-            onClick={handleMenuToggle}
-          >
-            {t("Production")}
-          </NavLink>
           {isMobile && <LanguageButtons />}
         </div>
 
