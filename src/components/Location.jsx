@@ -15,7 +15,7 @@ function Location() {
         <h4>{t("mapTitle")}</h4>
       </div>
 
-      <div style={{ height: "100dvh" }}>
+      <div style={{ height: "60dvh" }}>
         <MapContainer
           center={configs.position}
           zoom={20}
