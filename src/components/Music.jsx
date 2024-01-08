@@ -5,6 +5,7 @@ import Tarkan from "../music/Tarkan - Yolla.mp3";
 import CengizOzkan from "../music/Cengiz Özkan - Bir Ay Doğar İlk Akşamdan Geceden [ Çukur Dizi Şarkısı © Kalan Müzik ].mp3";
 import styles from "../styles/Music.module.css";
 import { FaPlay, FaPause, FaFastBackward, FaFastForward } from "react-icons/fa";
+import { configs } from "../config";
 
 const songs = [
   { title: "Adele - Rolling in the deep", url: Adele },
@@ -13,7 +14,9 @@ const songs = [
 ];
 
 function Music() {
-  const [currentSongIndex, setCurrentSongIndex] = useState(0);
+  const random = configs.randomMusic;
+  const index = random ? Math.floor(Math.random() * 3) : 0;
+  const [currentSongIndex, setCurrentSongIndex] = useState(index);
   const [sound, setSound] = useState(null);
   const [count, setCount] = useState(0);
   const [pausedAt, setPausedAt] = useState(null);

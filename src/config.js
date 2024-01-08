@@ -6,4 +6,5 @@ export const configs = {
   instagramAdress: "https://www.instagram.com/berkoambalaj/",
   facebookAdress: "https://www.facebook.com/O.Bedir29",
   position: [41.0715234, 28.8722335],
+  randomMusic: true,
 };
