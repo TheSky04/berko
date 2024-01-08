@@ -98,3 +98,9 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    padding-bottom: 15rem;
+  }
+}

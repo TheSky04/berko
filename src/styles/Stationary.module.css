@@ -37,10 +37,14 @@
 
 @media only screen and (max-width: 600px) {
   .stationaryContainer {
-    padding: 3rem;
+    padding: 0rem;
   }
 
   .stationaryFeatures {
-    padding: 3rem;
+    padding: 2rem 5rem;
+  }
+
+  .stationaryTitleContainer {
+    padding: 2rem 5rem;
   }
 }

@@ -8,7 +8,7 @@
 }
 
 .faq {
-  text-align: center;
+  align-self: flex-start;
 }
 
 .faq:first-child {
@@ -29,7 +29,7 @@
 }
 
 .faqContentImgContainer {
-  width: 90%;
+  width: 100%;
 }
 
 .faqContentImgContainerImg {
@@ -46,7 +46,6 @@
   .faqContentImgContainer {
     max-width: 60rem;
     border-radius: 5px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     padding: 0;
   }
@@ -81,11 +80,11 @@
 
 @media only screen and (max-width: 600px) {
   .title {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .faq p {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .faqContent {

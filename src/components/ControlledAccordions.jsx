@@ -21,7 +21,7 @@ export default function ControlledAccordions() {
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}
         sx={{
-          maxWidth: "90%",
+          maxWidth: "100%",
           padding: "2rem .5rem",
           marginBottom: "1rem",
         }}
@@ -61,7 +61,7 @@ export default function ControlledAccordions() {
         expanded={expanded === "panel2"}
         onChange={handleChange("panel2")}
         sx={{
-          maxWidth: "90%",
+          maxWidth: "100%",
           padding: "2rem .5rem",
           marginBottom: "1rem",
         }}
@@ -101,7 +101,7 @@ export default function ControlledAccordions() {
         expanded={expanded === "panel3"}
         onChange={handleChange("panel3")}
         sx={{
-          maxWidth: "90%",
+          maxWidth: "100%",
           padding: "2rem .5rem",
           marginBottom: "1rem",
         }}
@@ -141,7 +141,7 @@ export default function ControlledAccordions() {
         expanded={expanded === "panel4"}
         onChange={handleChange("panel4")}
         sx={{
-          maxWidth: "90%",
+          maxWidth: "100%",
           padding: "2rem .5rem",
           marginBottom: "1rem",
         }}

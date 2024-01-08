@@ -1,0 +1,58 @@
+.musicContainer {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0rem;
+  left: 0rem;
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+  border-top: 2px solid #e3e3e3;
+  width: 100%;
+  padding: 0.5rem;
+  z-index: 100000000000;
+}
+
+.musicContainer p {
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.musicButtons {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.musicButtons button {
+  cursor: pointer;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  color: #181818;
+  background-color: #fff;
+  border: 2px solid #181818;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play {
+  padding: 0.4rem !important;
+}
+
+@media only screen and (min-width: 700px) {
+  .musicContainer {
+    border: 2px solid #181818;
+  }
+
+  .musicContainer {
+    width: 30rem;
+  }
+
+  .musicButtons button {
+    width: 3rem;
+    height: 3rem;
+  }
+}
