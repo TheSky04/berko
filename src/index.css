@@ -41,7 +41,7 @@ html {
 
 body {
   touch-action: manipulation;
-  padding-top: 11.2rem;
+  padding-top: 11.5rem;
 }
 
 .nav {
@@ -320,6 +320,10 @@ body {
 
   html {
     font-size: 50%;
+  }
+
+  body {
+    padding-top: 9rem;
   }
 }
 
