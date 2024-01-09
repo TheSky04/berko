@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import styles from "../styles/ContactForm.module.css";
-import berkologo from "../assets/berkologo-black.png";
+import berkologo from "../assets/berko-black-nobackground.png";
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 import { configs } from "../config";
 

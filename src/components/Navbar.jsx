@@ -12,7 +12,7 @@ import {
   FaBars,
   FaTimes,
 } from "react-icons/fa";
-import BerkoLogo from "../assets/berkologo.png";
+import BerkoLogo from "../assets/berko-white-nobackground.png";
 
 function Navbar({ isMobile }) {
   const { t } = useTranslation();

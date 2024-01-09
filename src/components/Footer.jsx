@@ -1,5 +1,5 @@
 import React from "react";
-import BerkoLogo from "../assets/berkologo.png";
+import BerkoLogo from "../assets/berko-white-nobackground.png";
 import { useTranslation } from "react-i18next";
 import styles from "../styles/Footer.module.css";
 import { Link } from "react-router-dom";
