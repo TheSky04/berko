@@ -114,6 +114,8 @@ const resources = {
         "All kinds of stationery you may need for office, school or home are here! We meet all your stationery needs with our wide range of products, from pens to notebooks, from files to labels.",
       StationaryGalleryTitle: "Our Stationery Products",
       StationaryGallerySubTitle: "Our products",
+      SuccessMessage: "We received your message successfully!",
+      ErrorMessage: "An error occured.",
     },
   },
   tr: {
@@ -225,6 +227,8 @@ const resources = {
         "Ofis, okul ya da ev için ihtiyaç duyabileceğiniz her türlü kırtasiye malzemesi burada! Kalemlerden defterlere, dosyalardan etiketlere kadar geniş ürün yelpazemizle, tüm kırtasiye ihtiyaçlarınızı karşılıyoruz.",
       StationaryGalleryTitle: "Kırtasiye Ürünlerimiz",
       StationaryGallerySubTitle: "Ürünlerimiz",
+      SuccessMessage: "Mesajını başarıyla aldık!",
+      ErrorMessage: "Bir hata oluştu.",
     },
   },
 };
