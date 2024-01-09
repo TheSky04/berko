@@ -56,7 +56,7 @@ function ContactForm({ img = true }) {
                     {t("Phone")}: {t("PhoneNumber2")}
                   </p>
                   <p>
-                    {t("Whatsapp")}: {configs.whatsappNumber}
+                    {t("Whatsapp")}: {configs.contactWhatsappNumber}
                   </p>
                 </div>
               </div>
@@ -81,6 +81,7 @@ function ContactForm({ img = true }) {
               <div className={styles.contact}>
                 <h3>{t("ContactInformation3")}</h3>
                 <div className={styles.contactText}>
+                  <p>{configs.email2}</p>
                   <p>{configs.email}</p>
                 </div>
               </div>

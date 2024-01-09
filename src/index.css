@@ -41,6 +41,7 @@ html {
 
 body {
   touch-action: manipulation;
+  padding-top: 11.2rem;
 }
 
 .nav {
@@ -50,10 +51,11 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 2rem;
-  position: sticky;
   top: 0px;
   z-index: 9999999999;
   box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+  position: fixed;
+  width: 100%;
 }
 
 .navLogo img {

@@ -18,6 +18,13 @@ function Footer() {
     padding: "1rem",
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <footer className={styles.footer}>
       <div className={styles.footerLeft}>
@@ -46,7 +53,11 @@ function Footer() {
         <h2 className={styles.footerTitle}>{t("FooterTitle")}</h2>
         <ul>
           <li>
-            <Link to="/products/stationary" className={styles.footerCenterLink}>
+            <Link
+              to="/products/stationary"
+              className={styles.footerCenterLink}
+              onClick={scrollToTop}
+            >
               {t("StationaryTitle")}
             </Link>
           </li>
@@ -54,6 +65,7 @@ function Footer() {
             <Link
               to="/products/packaging-materials"
               className={styles.footerCenterLink}
+              onClick={scrollToTop}
             >
               {t("PackagingMaterialsTitle")}
             </Link>
@@ -62,6 +74,7 @@ function Footer() {
             <Link
               to="/products/textile-consumables"
               className={styles.footerCenterLink}
+              onClick={scrollToTop}
             >
               {t("TextileConsumablesTitle")}
             </Link>

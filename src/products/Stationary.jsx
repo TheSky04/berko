@@ -18,7 +18,7 @@ function Stationary({ isMobile }) {
       <div className={styles.stationaryContainer}>
         <SimpleImageSlider
           width={isMobile ? "100%" : "40%"}
-          height={isMobile ? "40vh" : "60vh"}
+          height={isMobile ? "35vh" : "60vh"}
           images={[ambalaj, backgroundTree, nature]}
           showBullets={true}
           showNavs={true}

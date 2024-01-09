@@ -19,13 +19,19 @@ function Navbar({ isMobile }) {
 
   const [navOpen, setNavOpen] = useState("");
 
-  const handleMenuToggle = function () {
+  const handleMenuToggle = function (scroll = true) {
     navOpen === "" ? setNavOpen("nav-open") : setNavOpen("");
+    if (scroll) {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
   };
 
   return (
     <header className={`${navOpen} header`}>
-      <div className="navTop">
+      {/* <div className="navTop">
         <div className="navTopLeft">
           <div className="navTopLeftEmail">
             <FiMail color="#fff" />
@@ -54,7 +60,7 @@ function Navbar({ isMobile }) {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <nav className="nav">
         <div className="navLogo">
           <img src={BerkoLogo} alt="berko logo" />
@@ -94,7 +100,7 @@ function Navbar({ isMobile }) {
         <div className="navRight">
           <LanguageButtons />
         </div>
-        <div className="iconContainer" onClick={handleMenuToggle}>
+        <div className="iconContainer" onClick={() => handleMenuToggle(false)}>
           <FaBars className="menuIcon" />
           <FaTimes className="closeIcon" />
         </div>

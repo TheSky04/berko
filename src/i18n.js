@@ -28,7 +28,7 @@ const resources = {
       PhoneNumber1: "0532 012 7185",
       PhoneNumber2: "0212 630 2904",
       PhoneNumber3: "0212 630 2915",
-      Email: "satis@berkomoda.com",
+      Email: "satis@berkoambalaj.com",
       FAQ: "Frequently Asking Questions",
       ExtraQuestion: "Do you have any questions?",
       Question1: "What is the minimum production quantity?",
@@ -140,7 +140,7 @@ const resources = {
       PhoneNumber1: "0532 012 7185",
       PhoneNumber2: "0212 630 2904",
       PhoneNumber3: "0212 630 2915",
-      Email: "satis@berkomoda.com",
+      Email: "satis@berkoambalaj.com",
       FAQ: "Sıkça Sorulan Sorular",
       ExtraQuestion: "Herhangi bir sorunuz mu var ?",
       Question1: "Minimum üretim adedi nedir?",
@@ -203,7 +203,7 @@ const resources = {
       ProductTextileConsumableText:
         "Tekstil sektöründe mükemmeliyet arayışında olanlar için en kaliteli sarf malzemeleri burada! İster büyük bir atölye sahibi olun, isterse evde projeler üretin, ihtiyacınız olan her şeyi bizde bulacaksınız. Kalite ve çeşitlilik için bizi tercih edin.",
       ProductPackagingMaterialsText:
-        "Ürünlerinizi güvenle saklamak ve mükemmel sunumlar için doğru adres! Ambalaj malzemelerimizle hem estetik hem de fonksiyonel çözümler sunuyoruz. Ürünleriniz için en uygun ambalajı bizimle bulun. Kalite ve uygun fiyatlarla tanışmak ve",
+        "Ürünlerinizi güvenle saklamak ve mükemmel sunumlar için doğru adres! Ambalaj malzemelerimizle hem estetik hem de fonksiyonel çözümler sunuyoruz. Ürünleriniz için en uygun ambalajı bizimle bulun.",
       Discover: " Keşfetmek için Tıklayın !",
       StationaryPageMainText:
         "Hayatımızda eğitimden iş yaşamına, günlük rutinden özel projelere kadar kırtasiye malzemelerine ihtiyaç duyarız. Bu araçlar, düşüncelerimizi ifade etmekten, fikirlerimizi organize etmeye kadar birçok işlevi üstlenir. Ancak, doğru araçların yanı sıra kalite, hız ve güven de önemlidir. Biz, kaliteli ürünlerimizle, projelerinizin aksamadan tamamlanmasına yardımcı olurken, hızlı teslimatımızla da zamanınızı daha etkili kullanmanızı sağlıyoruz. Geniş ürün yelpazemizle ihtiyaçlarınıza uygun çözümler sunuyoruz. Kalite ve güvenilirlik arayışınızda, yanınızdayız!",

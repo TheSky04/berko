@@ -5,8 +5,16 @@ import { useTranslation } from "react-i18next";
 
 function ProductCart({ img, title, text, to }) {
   const { t } = useTranslation();
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <div className={styles.productCardContainer}>
+    <div className={styles.productCardContainer} onClick={scrollToTop}>
       <Link className={styles.productCard} to={to}>
         <img src={img} alt="berko produce stationary products" />
         <div className={styles.productCartContent}>
