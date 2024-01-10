@@ -116,6 +116,7 @@ const resources = {
       StationaryGallerySubTitle: "Our products",
       SuccessMessage: "We received your message successfully!",
       ErrorMessage: "An error occured.",
+      WarningMessage: "Please Fill the all fields.",
     },
   },
   tr: {
@@ -229,6 +230,7 @@ const resources = {
       StationaryGallerySubTitle: "Ürünlerimiz",
       SuccessMessage: "Mesajını başarıyla aldık!",
       ErrorMessage: "Bir hata oluştu.",
+      WarningMessage: "Lütfen tüm alanları doldurunuz.",
     },
   },
 };

@@ -124,11 +124,6 @@
   gap: 5rem;
 }
 
-.contactFormButton:disabled {
-  opacity: 0.6;
-  pointer-events: none;
-}
-
 .message {
   color: #fff;
   width: 100%;
@@ -144,6 +139,10 @@
 
 .error {
   background-color: #fa5252;
+}
+
+.warning {
+  background-color: #fcc419;
 }
 
 @media only screen and (max-width: 1800px) {

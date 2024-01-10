@@ -17,17 +17,26 @@ function ContactForm({ img = true }) {
   const [topic, setTopic] = useState("");
   const [message, setMessage] = useState("");
   const [text, setText] = useState("");
+  const [warning, setWarning] = useState("");
 
   const disabledButton = !name || !phone || !mail || !topic || !message;
 
   const showMessage = function (status, text) {
     if (status === "success") setSuccess(true);
     if (status === "error") setError(true);
+    if (status === "warning") setWarning(true);
     setText(text);
   };
 
   const handleSubmitForm = (e) => {
     e.preventDefault();
+
+    console.log("here");
+
+    if (disabledButton) {
+      showMessage("warning", t("WarningMessage"));
+      return;
+    }
 
     emailjs
       .sendForm(
@@ -63,6 +72,12 @@ function ContactForm({ img = true }) {
       setTimeout(() => setError(false), 3000);
     }
   }, [error]);
+
+  useEffect(() => {
+    if (warning) {
+      setTimeout(() => setWarning(false), 5000);
+    }
+  }, [warning]);
 
   return (
     <div className={styles.contactAllContainer}>
@@ -116,7 +131,6 @@ function ContactForm({ img = true }) {
           <button
             type="submit"
             className={styles.contactFormButton}
-            disabled={disabledButton}
             onClick={handleSubmitForm}
           >
             {t("ContactButton")}
@@ -126,6 +140,9 @@ function ContactForm({ img = true }) {
           )}
           {error && (
             <div className={`${styles.message} ${styles.error}`}>{text}</div>
+          )}
+          {warning && (
+            <div className={`${styles.message} ${styles.warning}`}>{text}</div>
           )}
         </form>
 
