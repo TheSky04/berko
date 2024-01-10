@@ -28,13 +28,13 @@ function Home({ isMobile }) {
         onStartSlide={(index) => setImageNum(index)}
         autoPlayDelay={configs.sliderDelay}
       />
-      <FAQ />
-      <ContactForm />
       <Gallery
         galleryTitle={t("GalleryHomeTitle")}
         gallerySubTitle={t("GalleryHomeSubTitle")}
         images={[gal1, gal2, gal3, gal4]}
       />
+      <FAQ />
+      <ContactForm />
     </div>
   );
 }

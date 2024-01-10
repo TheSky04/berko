@@ -55,4 +55,8 @@
     width: 3rem;
     height: 3rem;
   }
+
+  .musicContainer p {
+    font-size: 1.7rem;
+  }
 }

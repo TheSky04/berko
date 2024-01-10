@@ -97,7 +97,7 @@ function Footer() {
         </div>
         <div className={styles.footerRightIcon}>
           <MdOutlineMail size={32} color="white" />
-          <p>{t("Email")}</p>
+          <p>{configs.email2}</p>
         </div>
       </div>
     </footer>

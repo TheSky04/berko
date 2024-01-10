@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { Howl } from "howler";
-import Adele from "../music/Adele - Rolling in the Deep (Official Music Video).mp3";
-import Tarkan from "../music/Tarkan - Yolla.mp3";
-import CengizOzkan from "../music/Cengiz Özkan - Bir Ay Doğar İlk Akşamdan Geceden [ Çukur Dizi Şarkısı © Kalan Müzik ].mp3";
+import EbruGundes from "../music/Ebru Gündeş - Yakışıklı (Official Audio).mp3";
+import NesetErtas from "../music/Neşet Ertaş - Tatlı Dile Güler Yüze [ Doyulur mu ].mp3";
+import ModernTalking from "../music/Modern Talking - Youre My Heart, Youre My Soul (Official Music Video).mp3";
 import styles from "../styles/Music.module.css";
 import { FaPlay, FaPause, FaFastBackward, FaFastForward } from "react-icons/fa";
 import { configs } from "../config";
 
 const songs = [
-  { title: "Adele - Rolling in the deep", url: Adele },
-  { title: "Tarkan - Yolla", url: Tarkan },
-  { title: "Cengiz Özkan - Bir ay doğar", url: CengizOzkan },
+  { title: "Ebru Gündeş - Yakışıklı", url: EbruGundes },
+  { title: "Neşet Ertaş - Tatlı Dile Güler Yüze", url: NesetErtas },
+  { title: "Modern Talking - You're my heart", url: ModernTalking },
 ];
 
 function Music() {
