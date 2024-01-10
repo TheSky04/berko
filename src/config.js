@@ -7,6 +7,6 @@ export const configs = {
   address: "Oruçreis Mah. Giyimkent 9.Sokak No:72/A Esenler/İstanbul",
   instagramAdress: "https://www.instagram.com/berkoambalaj/",
   facebookAdress: "https://www.facebook.com/O.Bedir29",
-  position: [41.0710669, 28.873274],
+  position: [41.0710832, 28.8731577],
   randomMusic: true,
 };
