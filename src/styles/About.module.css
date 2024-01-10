@@ -75,15 +75,18 @@
 
 @media only screen and (max-width: 600px) {
   .aboutFirstTopTitleContainer {
-    padding-right: 0rem;
-    padding-left: 2rem;
+    padding: 3rem 2rem;
     width: 90%;
   }
 
   .aboutTopContainer {
-    padding-right: 0rem;
-    padding-left: 2rem;
+    padding: 3rem 2rem;
     width: 90%;
+  }
+
+  .aboutTopContainer:last-child {
+    padding: 3rem 2rem;
+    padding-bottom: 6rem;
   }
 
   .aboutFlexContainer img,

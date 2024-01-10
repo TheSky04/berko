@@ -41,7 +41,6 @@ html {
 
 body {
   touch-action: manipulation;
-  padding-top: 11.5rem;
 }
 
 .nav {
@@ -52,10 +51,9 @@ body {
   align-items: center;
   padding: 2rem;
   top: 0px;
-  z-index: 9999999999;
+  z-index: 99999999999999999;
   box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
-  position: fixed;
-  width: 100%;
+  position: relative;
 }
 
 .navLogo img {
@@ -320,10 +318,6 @@ body {
 
   html {
     font-size: 50%;
-  }
-
-  body {
-    padding-top: 9rem;
   }
 }
 
