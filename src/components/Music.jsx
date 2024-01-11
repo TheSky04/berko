@@ -28,6 +28,7 @@ function Music() {
 
     const newSound = new Howl({
       src: [selectedSong?.url],
+      html5: true,
       onend: () => {
         currentSongIndex < songs.length - 1
           ? setCurrentSongIndex(currentSongIndex + 1)
