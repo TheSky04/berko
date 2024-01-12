@@ -7,8 +7,7 @@
 .contactFormContainer {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .contactTitle {
@@ -120,8 +119,8 @@
   width: 100%;
 }
 
-.gap-5 {
-  gap: 5rem;
+.gap {
+  gap: 10rem;
 }
 
 .message {
@@ -145,18 +144,16 @@
   background-color: #fcc419;
 }
 
-@media only screen and (max-width: 1800px) {
-  .contactAllContainer {
-    padding: 5rem;
-  }
-
-  .contactFormImgContainer img {
-    max-width: 60rem;
-    transform: translateY(-30%);
-  }
+.contactAllContainer {
+  padding: 5rem;
 }
 
-@media only screen and (max-width: 1500px) {
+.contactFormImgContainer img {
+  max-width: 80rem;
+  transform: translateY(-30%);
+}
+
+@media only screen and (max-width: 1735px) {
   .contactFormImgContainer img {
     transform: translateY(0);
   }
@@ -165,6 +162,12 @@
 @media only screen and (max-width: 950px) {
   .form {
     grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .contactFormImgContainer img {
+    max-width: 60rem;
   }
 }
 
@@ -180,6 +183,10 @@
 
   .whatsappText {
     font-size: 1.8rem !important;
+  }
+
+  .gap {
+    gap: 5rem;
   }
 }
 

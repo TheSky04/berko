@@ -86,9 +86,7 @@ function ContactForm({ img = true }) {
         <h4>{t("ContactForm")}</h4>
       </div>
       <div
-        className={`${styles.contactFormContainer} ${
-          img ? "" : styles["gap-5"]
-        }`}
+        className={`${styles.contactFormContainer} ${img ? "" : styles["gap"]}`}
       >
         <form ref={form} className={styles.form}>
           <input

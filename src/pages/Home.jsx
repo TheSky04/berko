@@ -1,17 +1,20 @@
 import { useState } from "react";
-import gal1 from "../assets/gallery/gal-1.jpg";
-import gal2 from "../assets/gallery/gal-2.jpg";
-import gal3 from "../assets/gallery/gal-3.jpg";
-import gal4 from "../assets/gallery/gal-4.jpg";
 import SimpleImageSlider from "react-simple-image-slider";
 import { configs } from "../config";
 import FAQ from "../components/FAQ";
 import ContactForm from "../components/ContactForm";
 import Gallery from "../components/Gallery";
-import ambalaj from "../assets/ambalaj.jpg";
-import backgroundTree from "../assets/background-tree.jpg";
-import nature from "../assets/nature.jpg";
 import { useTranslation } from "react-i18next";
+import gallery1 from "../assets/special/gallery/gallery-1.jpg";
+import gallery2 from "../assets/special/gallery/gallery-2.jpg";
+import gallery3 from "../assets/special/gallery/gallery-3.jpg";
+import gallery4 from "../assets/special/gallery/gallery-4.jpg";
+import package7 from "../assets/special/ambalaj/ambalaj-7.jpeg";
+import stationary6 from "../assets/special/kırtasiye/kırtasiye-6.jpeg";
+import textile7 from "../assets/special/textile/tekstil-7.jpg";
+import textile1short from "../assets/special/textile/textile-1-short.png";
+import package3short from "../assets/special/ambalaj/ambalaj-3-short.jpg";
+import ender from "../assets/special/ender.jpeg/";
 
 function Home({ isMobile }) {
   const [imageNum, setImageNum] = useState(1);
@@ -21,7 +24,14 @@ function Home({ isMobile }) {
       <SimpleImageSlider
         width="100%"
         height={isMobile ? "30vh" : "100vh"}
-        images={[ambalaj, backgroundTree, nature]}
+        images={[
+          package7,
+          stationary6,
+          textile7,
+          textile1short,
+          package3short,
+          ender,
+        ]}
         showBullets={true}
         showNavs={true}
         autoPlay={true}
@@ -31,7 +41,7 @@ function Home({ isMobile }) {
       <Gallery
         galleryTitle={t("GalleryHomeTitle")}
         gallerySubTitle={t("GalleryHomeSubTitle")}
-        images={[gal1, gal2, gal3, gal4]}
+        images={[gallery1, gallery2, gallery3, gallery4]}
       />
       <FAQ />
       <ContactForm />

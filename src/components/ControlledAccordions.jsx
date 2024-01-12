@@ -35,7 +35,7 @@ export default function ControlledAccordions() {
             sx={{
               width: "100%",
               flexShrink: 0,
-              fontSize: "2rem",
+              fontSize: "1.8rem",
               color: "#181818",
               fontFamily: "inherit",
               fontWeight: "500",
@@ -75,7 +75,7 @@ export default function ControlledAccordions() {
             sx={{
               width: "100%",
               flexShrink: 0,
-              fontSize: "2rem",
+              fontSize: "1.8rem",
               color: "#181818",
               fontFamily: "inherit",
               fontWeight: "500",
@@ -115,7 +115,7 @@ export default function ControlledAccordions() {
             sx={{
               width: "100%",
               flexShrink: 0,
-              fontSize: "2rem",
+              fontSize: "1.8rem",
               color: "#181818",
               fontFamily: "inherit",
               fontWeight: "500",
@@ -155,7 +155,7 @@ export default function ControlledAccordions() {
             sx={{
               width: "100%",
               flexShrink: 0,
-              fontSize: "2rem",
+              fontSize: "1.8rem",
               color: "#181818",
               fontFamily: "inherit",
               fontWeight: "500",
@@ -174,6 +174,86 @@ export default function ControlledAccordions() {
             }}
           >
             {t("Question4Text")}
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion
+        expanded={expanded === "panel5"}
+        onChange={handleChange("panel5")}
+        sx={{
+          maxWidth: "100%",
+          padding: "2rem .5rem",
+          marginBottom: "1rem",
+        }}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon sx={{ fontSize: "2.5rem" }} />}
+          aria-controls="panel5bh-content"
+          id="panel5bh-header"
+        >
+          <Typography
+            sx={{
+              width: "100%",
+              flexShrink: 0,
+              fontSize: "1.8rem",
+              color: "#181818",
+              fontFamily: "inherit",
+              fontWeight: "500",
+            }}
+          >
+            {t("Question5")}
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography
+            sx={{
+              width: "100%",
+              flexShrink: 0,
+              fontSize: "1.8rem",
+              fontFamily: "inherit",
+            }}
+          >
+            {t("Question5Text")}
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion
+        expanded={expanded === "panel6"}
+        onChange={handleChange("panel6")}
+        sx={{
+          maxWidth: "100%",
+          padding: "2rem .5rem",
+          marginBottom: "1rem",
+        }}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon sx={{ fontSize: "2.5rem" }} />}
+          aria-controls="panel6bh-content"
+          id="panel6bh-header"
+        >
+          <Typography
+            sx={{
+              width: "100%",
+              flexShrink: 0,
+              fontSize: "1.8rem",
+              color: "#181818",
+              fontFamily: "inherit",
+              fontWeight: "500",
+            }}
+          >
+            {t("Question6")}
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography
+            sx={{
+              width: "100%",
+              flexShrink: 0,
+              fontSize: "1.8rem",
+              fontFamily: "inherit",
+            }}
+          >
+            {t("Question6Text")}
           </Typography>
         </AccordionDetails>
       </Accordion>

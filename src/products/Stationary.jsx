@@ -1,8 +1,9 @@
 import React from "react";
 import SimpleImageSlider from "react-simple-image-slider";
-import ambalaj from "../assets/ambalaj.jpg";
-import backgroundTree from "../assets/background-tree.jpg";
-import nature from "../assets/nature.jpg";
+import stationary1 from "../assets/special/kırtasiye/kırtasiye-1.jpeg";
+import stationary2 from "../assets/special/kırtasiye/kırtasiye-2.jpeg";
+import stationary4 from "../assets/special/kırtasiye/kırtasiye-4.jpeg";
+import stationary6 from "../assets/special/kırtasiye/kırtasiye-6.jpeg";
 import stationary from "../assets/stationary.jpg";
 import { configs } from "../config";
 import { useState } from "react";
@@ -19,7 +20,7 @@ function Stationary({ isMobile }) {
         <SimpleImageSlider
           width={isMobile ? "100%" : "40%"}
           height={isMobile ? "30vh" : "60vh"}
-          images={[ambalaj, backgroundTree, nature]}
+          images={[stationary1, stationary2, stationary4, stationary6]}
           showBullets={true}
           showNavs={true}
           autoPlay={true}

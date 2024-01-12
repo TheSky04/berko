@@ -30,19 +30,26 @@ const resources = {
       PhoneNumber3: "0212 630 2915",
       Email: "satis@berkoambalaj.com",
       FAQ: "Frequently Asking Questions",
-      ExtraQuestion: "Do you have any questions?",
-      Question1: "What is the minimum production quantity?",
-      Question2: "How many colors can you produce at most?",
-      Question3: "What is the maximum production size?",
-      Question4: "What is the delivery time?",
+      ExtraQuestion: "Do you have any questions ?",
+      Question1: "How many days is the delivery time ?",
+      Question2: "Are your stationery products for schools or workplaces ?",
+      Question3: "What is a textile consumable ?",
+      Question4: "How many types of tapes are there ?",
+      Question5: "How many types of masking tape are there ?",
+      Question6:
+        "What is the production quantity and delivery date for printed tape ?",
       Question1Text:
-        "The minimum production quantity is usually set at 1000 units. However, we can be flexible with this number depending on the complexity of your project and your specific requirements. Please contact us for more information.",
+        "We deliver on the same day for standard products, and within a maximum of 10 days for special size or printed products.",
       Question2Text:
-        "The production technology of our labels usually allows for up to 8 colors. This allows us to offer a wide range of color options to match your brand's color palette and design needs.",
+        "Our stationery products can be used for both school and workplace. Although we are mostly preferred by the administrative units of companies, we also receive great interest in this field from schools and private educational institutions.",
       Question3Text:
-        "We offer great flexibility in terms of production sizes. In general, we can easily produce labels up to 20 cm in width. However, we can also produce labels for your special projects. Please contact us to specify your requirements.",
+        'These are auxiliary materials used in production or product development in the textile field. We are a company responsible for supplying these auxiliary materials to you. "I wonder if this product exists?" Do not think like that, call us :)',
       Question4Text:
-        "Delivery time can vary depending on the production quantity, dimensions and complexity of the project. Typically, we offer lead times of 2 days for orders of 1000 pieces, extending up to a maximum of 1 week as the order quantity increases. If you have special requirements or need an urgent delivery, you can contact our team to help you with this. For more information about delivery times, please contact us.",
+        "Packaging tape is separated by 4 types of adhesives. Hot-melt duct tape: It has an efficient usage area, especially for parcel and paper surface packaging processes. Acrylic tape; Provides high efficiency in nylon, polyethylene and metal surface applications. Natural rubber band provides excellent use on all surfaces and weather conditions. Silicone glue tape is used especially in applications requiring high temperatures.",
+      Question5Text:
+        "Masking tape has 3 different carrier surfaces and 5 different adhesive properties and can be used for different purposes. It is produced from paper, polyethylene and polyester films as a surface. Additionally, it is also produced from fabric-derived products. It has acrylic, solvent acrylic, natural rubber, hot melt and UV silicone glue derivatives as adhesives. It varies according to usage area, surface, temperature differences and duration.",
+      Question6Text:
+        "Our production date is at least 10 days and our printing quantity is at least 326 pieces.",
       ContactUs: "Contact Us",
       ContactForm: "Contact Form",
       ContactInputNameSurname: "Name and Surname",
@@ -52,7 +59,7 @@ const resources = {
       ContactInputMessage: "Your Message",
       ContactButton: "Send Your Message",
       GalleryHomeTitle: "Our Gallery",
-      GalleryHomeSubTitle: "Some Pictures in our Office",
+      GalleryHomeSubTitle: "Scenes from our office",
       ContactInformation1: "Contact Information",
       ContactInformation2: "Address",
       ContactInformation3: "E-Mail",
@@ -146,18 +153,26 @@ const resources = {
       Email: "satis@berkoambalaj.com",
       FAQ: "Sıkça Sorulan Sorular",
       ExtraQuestion: "Herhangi bir sorunuz mu var ?",
-      Question1: "Minimum üretim adedi nedir?",
-      Question2: "En fazla kaç renk üretim yapabiliyorsunuz?",
-      Question3: "En Fazla üretim ebatları nedir?",
-      Question4: "Teslimat süresi nedir?",
+      Question1: "Teslimat süresi kaç gündür ?",
+      Question2:
+        "Kırtasiye ürünleriniz okula mı yoksa işyerine mi yöneliktir ?",
+      Question3: "Tekstil sarf malzemesi nedir ?",
+      Question4: "Kaç çeşit bant vardır ?",
+      Question5: "Maskeleme bandı kaç çeşittir ?",
+      Question6: "Baskılı bant için üretim adedi ve teslim tarihi nedir ?",
+
       Question1Text:
-        "Minimum üretim adedi, genellikle 1000 adet olarak belirlenmiştir. Ancak projenizin karmaşıklığına ve özel gereksinimlerinize bağlı olarak bu sayıda esneklik sağlayabiliriz. Daha fazla bilgi için lütfen bizimle iletişime geçin.",
+        "Standart ürünlerde aynı gün, özel ölçü veya baskılı ürünlerde ise maksimum 10 gün süreyle teslim ediyoruz.",
       Question2Text:
-        "Etiketlerimizin üretim teknolojisi, genellikle 8 renge kadar müsade etmektedir. Bu, markanızın renk paletine ve tasarım ihtiyaçlarına uyum sağlayacak geniş bir yelpazede renk seçeneği sunmamıza olanak tanır.",
+        "Kırtasiye ürünlerimiz hem okul hem de işyeri için kullanılabilir. Daha çok şirketlerin idari birimleri tarafından tercih edilsekte okullar ve özel eğitim kurumları tarafından da bu alanda yoğun ilgi görmekteyiz.",
       Question3Text:
-        "Üretim ebatları konusunda büyük bir esneklik sunuyoruz. Genel olarak, en 20 cm'ye kadar olan etiketleri rahatlıkla üretebiliyoruz. Ancak, özel projeleriniz için etiketler üretebiliriz. İhtiyaçlarınızı belirtmek için lütfen bizimle iletişime geçin.",
+        'Tekstil alanında üretim veya ürün geliştirmede kullanılan yardımcı malzemelerdir. Bizlerde bu yardımcı malzemeleri size tedarik etmekle görevli bir şirketiz. "Acaba bu ürün var mıdır ?" diye düşünmeyin bizi arayın :)',
       Question4Text:
-        "Teslimat süresi, üretim adedi, boyutlar ve projenin karmaşıklığına bağlı olarak değişebilir. Genellikle, 1000 adetlik siparişler için 2 günken, sipariş miktarı arttıkça en fazla 1 haftaya kadar uzayabilen süreler sunuyoruz. Özel gereksinimleriniz varsa veya acil bir teslimat gerekiyorsa, bu konuda size yardımcı olmak için ekibimizle iletişime geçebilirsiniz. Teslimat süreleri hakkında daha fazla bilgi almak için lütfen bize ulaşın.",
+        "Ambalaj bandı 4 yapıştırıcı çeşidi ile ayrılır. Hot-melt koli bandı: Özellikle koli ve kağıt yüzeyli ambalajlama işlemleri için verimli kullanım alanına sahiptir. Akrilik bant; naylon, polietilen ve metal yüzey uygulamalarında yüksek verim sağlar. Doğal kauçuk bant, bütün yüzeylerde ve hava koşullarında mükemmel kullanım sağlar. Silikon tutkallı bant, özellikle yüksek ısı derecesi gerektiren uygulamalarda kullanılır.",
+      Question5Text:
+        "Maskeleme bandı 3 farklı özelliğe sahip taşıyıcı yüzeye ve 5 farklı yapışkan özellikte amaca göre kullanılmaktadır. Yüzey olarak kağıt, polietilen ve polyester filmlerden üretilmektedir. Ekstra olarak da kumaş türevi mamüllerden de üretilmektedir. Yapışkan olarak akrilik, solvent akrilik, doğal kauçuk, hot melt ve uv silikon tutkal türevlerine sahiptir. Kullanım alanı, yüzey, ısı farklılıkları ve süresine göre çeşitlilik göstermektedir.",
+      Question6Text:
+        "Üretim tarihimiz en az 10 gün, baskı adedimiz ise en az 326 adettir.",
       ContactUs: "Bize Ulaşın",
       ContactForm: "İletişim Formu",
       ContactInputNameSurname: "Adınız Soyadınız",

@@ -2,7 +2,7 @@ import React from "react";
 import ControlledAccordions from "../components/ControlledAccordions";
 import { useTranslation } from "react-i18next";
 import styles from "../styles/FAQ.module.css";
-import ambalaj from "../assets/ambalaj.jpg";
+import ender from "../assets/special/kırtasiye/kırtasiye-2.jpeg";
 
 function FAQ() {
   const { t } = useTranslation();
@@ -16,7 +16,7 @@ function FAQ() {
         <ControlledAccordions />
         <div className={styles.faqContentImgContainer}>
           <img
-            src={ambalaj}
+            src={ender}
             className={styles.faqContentImgContainerImg}
             alt=""
           />
