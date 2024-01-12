@@ -1,15 +1,16 @@
-import React from "react";
 import SimpleImageSlider from "react-simple-image-slider";
-import stationary1 from "../assets/special/kırtasiye/kırtasiye-1.jpeg";
-import stationary2 from "../assets/special/kırtasiye/kırtasiye-2.jpeg";
-import stationary4 from "../assets/special/kırtasiye/kırtasiye-4.jpeg";
-import stationary6 from "../assets/special/kırtasiye/kırtasiye-6.jpeg";
+import stationary7 from "../assets/special/kırtasiye/kırtasiye-7.jpeg";
 import stationary from "../assets/stationary.jpg";
 import { configs } from "../config";
 import { useState } from "react";
 import styles from "../styles/Stationary.module.css";
 import { useTranslation } from "react-i18next";
-import Gallery from "../components/Gallery";
+import Gallery2 from "../components/Gallery2";
+import kırtasiye3edited from "../assets/special/kırtasiye/kırtasiye-3-edited.jpeg";
+import kırtasiye4 from "../assets/special/kırtasiye/kırtasiye-4.jpeg";
+import kırtasiye5 from "../assets/special/kırtasiye/kırtasiye-5.jpeg";
+import kırtasiye8 from "../assets/special/kırtasiye/kırtasiye-8.jpeg";
+import kırtasiye2 from "../assets/special/kırtasiye/kırtasiye-2.jpeg";
 
 function Stationary({ isMobile }) {
   const [imageNum, setImageNum] = useState(1);
@@ -18,22 +19,21 @@ function Stationary({ isMobile }) {
     <div className="background">
       <div className={styles.stationaryContainer}>
         <SimpleImageSlider
-          width={isMobile ? "100%" : "40%"}
-          height={isMobile ? "30vh" : "60vh"}
-          images={[stationary1, stationary2, stationary4, stationary6]}
+          width="100%"
+          height={isMobile ? "30vh" : "100vh"}
+          images={[stationary7, stationary, kırtasiye3edited]}
           showBullets={true}
           showNavs={true}
           autoPlay={true}
           onStartSlide={(index) => setImageNum(index)}
           autoPlayDelay={configs.sliderDelay}
         />
-        <div className={styles.stationaryTitleContainer}>
-          <h4 className={styles.stationaryTitle}>{t("Stationary")}</h4>
-          <p className={styles.StationaryMainText}>
-            {t("StationaryPageMainText")}
-          </p>
-        </div>
       </div>
+      <div className={styles.stationaryFeatures}>
+        <h4 className={styles.bigFont}>{t("Stationary")}</h4>
+        <p>{t("StationaryPageMainText")}</p>
+      </div>
+
       <div className={styles.stationaryFeatures}>
         <h4>{t("StationaryPageSubTitle1")}</h4>
         <p>{t("StationaryPageSubText1")}</p>
@@ -54,10 +54,10 @@ function Stationary({ isMobile }) {
         <p>{t("StationaryPageSubText4")}</p>
       </div>
 
-      <Gallery
+      <Gallery2
         galleryTitle={t("StationaryGalleryTitle")}
         gallerySubTitle={t("StationaryGallerySubTitle")}
-        images={[stationary, stationary, stationary, stationary]}
+        images={[kırtasiye2, kırtasiye4, kırtasiye5, kırtasiye8]}
       />
     </div>
   );

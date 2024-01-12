@@ -1,12 +1,3 @@
-.stationaryContainer {
-  padding: 2rem 10rem;
-
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  gap: 2rem;
-}
-
 .stationaryContainer h4 {
   font-size: 3.5rem;
   margin-bottom: 2rem;
@@ -27,6 +18,10 @@
 
 .stationaryFeatures p {
   font-size: 2rem;
+}
+
+.bigFont {
+  font-size: 4rem !important;
 }
 
 @media only screen and (max-width: 1200px) {
