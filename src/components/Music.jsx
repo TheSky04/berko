@@ -4,14 +4,7 @@ import EbruGundes from "../music/Ebru Gündeş - Yakışıklı (Official Audio).
 import NesetErtas from "../music/Neşet Ertaş - Tatlı Dile Güler Yüze [ Doyulur mu ].mp3";
 import ModernTalking from "../music/Modern Talking - Youre My Heart, Youre My Soul (Official Music Video).mp3";
 import styles from "../styles/Music.module.css";
-import {
-  FaPlay,
-  FaPause,
-  FaFastBackward,
-  FaFastForward,
-  FaVolumeUp,
-  FaVolumeDown,
-} from "react-icons/fa";
+import { FaPlay, FaPause, FaFastBackward, FaFastForward } from "react-icons/fa";
 import { configs } from "../config";
 
 const songs = [
@@ -38,7 +31,6 @@ function Music() {
     const newSound = new Howl({
       src: [selectedSong?.url],
       html5: true,
-      volume: 1.0, // Başlangıçta ses düzeyi
       onend: () => {
         currentSongIndex < songs.length - 1
           ? setCurrentSongIndex((index) => index + 1)
@@ -85,23 +77,10 @@ function Music() {
     setCount((prevCount) => prevCount + 1);
   };
 
-  const handleVolumeUp = () => {
-    const newVolume = Math.min(1.0, sound.volume() + 0.1);
-    sound.volume(newVolume);
-  };
-
-  const handleVolumeDown = () => {
-    const newVolume = Math.max(0.0, sound.volume() - 0.1);
-    sound.volume(newVolume);
-  };
-
   return (
     <div className={styles.musicContainer}>
       <p>{songs[currentSongIndex]?.title}</p>
       <div className={styles.musicButtons}>
-        <button onClick={handleVolumeDown} className={styles.musicButton}>
-          <FaVolumeDown />
-        </button>
         <button onClick={handleFastBackward} className={styles.musicButton}>
           <FaFastBackward />
         </button>
@@ -116,9 +95,6 @@ function Music() {
         </button>
         <button onClick={handleFastForward} className={styles.musicButton}>
           <FaFastForward />
-        </button>
-        <button onClick={handleVolumeUp} className={styles.musicButton}>
-          <FaVolumeUp />
         </button>
       </div>
     </div>

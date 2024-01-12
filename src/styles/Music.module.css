@@ -49,6 +49,8 @@
 
   .musicContainer {
     width: 30rem;
+    bottom: 20px;
+    left: 20px;
   }
 
   .musicButtons button {
