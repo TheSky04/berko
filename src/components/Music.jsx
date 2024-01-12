@@ -4,7 +4,14 @@ import EbruGundes from "../music/Ebru Gündeş - Yakışıklı (Official Audio).
 import NesetErtas from "../music/Neşet Ertaş - Tatlı Dile Güler Yüze [ Doyulur mu ].mp3";
 import ModernTalking from "../music/Modern Talking - Youre My Heart, Youre My Soul (Official Music Video).mp3";
 import styles from "../styles/Music.module.css";
-import { FaPlay, FaPause, FaFastBackward, FaFastForward } from "react-icons/fa";
+import {
+  FaPlay,
+  FaPause,
+  FaFastBackward,
+  FaFastForward,
+  FaVolumeUp,
+  FaVolumeDown,
+} from "react-icons/fa";
 import { configs } from "../config";
 
 const songs = [
@@ -22,80 +29,96 @@ function Music() {
   const [pausedAt, setPausedAt] = useState(null);
 
   useEffect(() => {
-    if (sound) sound.stop();
+    if (sound) {
+      sound.stop();
+    }
 
     const selectedSong = songs[currentSongIndex];
 
     const newSound = new Howl({
       src: [selectedSong?.url],
       html5: true,
+      volume: 1.0, // Başlangıçta ses düzeyi
       onend: () => {
         currentSongIndex < songs.length - 1
-          ? setCurrentSongIndex(currentSongIndex + 1)
+          ? setCurrentSongIndex((index) => index + 1)
           : setCurrentSongIndex(0);
       },
     });
 
     setSound(newSound);
 
-    if (count > 0) newSound.play();
+    if (count > 0) {
+      newSound.play();
+    }
 
-    setCount((previousCount) => (previousCount = previousCount + 1));
+    return () => newSound.stop();
+  }, [currentSongIndex, count]);
 
-    return () => sound?.stop();
-  }, [currentSongIndex]);
+  const handleFastBackward = () => {
+    setPausedAt(null);
+    setCurrentSongIndex((index) =>
+      index === 0 ? songs.length - 1 : index - 1
+    );
+    setCount((prevCount) => prevCount + 1);
+  };
+
+  const handlePlay = () => {
+    sound.stop();
+    sound.play();
+    if (pausedAt) {
+      sound.seek(pausedAt);
+    }
+    setPausedAt(null);
+  };
+
+  const handlePause = () => {
+    sound.pause();
+    setPausedAt(sound.seek());
+  };
+
+  const handleFastForward = () => {
+    setPausedAt(null);
+    setCurrentSongIndex((index) =>
+      index === songs.length - 1 ? 0 : index + 1
+    );
+    setCount((prevCount) => prevCount + 1);
+  };
+
+  const handleVolumeUp = () => {
+    const newVolume = Math.min(1.0, sound.volume() + 0.1);
+    sound.volume(newVolume);
+  };
+
+  const handleVolumeDown = () => {
+    const newVolume = Math.max(0.0, sound.volume() - 0.1);
+    sound.volume(newVolume);
+  };
 
   return (
     <div className={styles.musicContainer}>
       <p>{songs[currentSongIndex]?.title}</p>
       <div className={styles.musicButtons}>
-        <button
-          onClick={() =>
-            setCurrentSongIndex((state) => {
-              state === 0 ? (state = 2) : (state = state - 1);
-              sound?.stop();
-              sound?.play();
-              return state;
-            })
-          }
-          className={styles.musicButton}
-        >
+        <button onClick={handleVolumeDown} className={styles.musicButton}>
+          <FaVolumeDown />
+        </button>
+        <button onClick={handleFastBackward} className={styles.musicButton}>
           <FaFastBackward />
         </button>
         <button
-          onClick={() => {
-            sound.stop();
-            sound.play();
-            if (pausedAt) {
-              sound.seek(pausedAt);
-            }
-            setPausedAt(null);
-          }}
+          onClick={handlePlay}
           className={`${styles.musicButton} ${styles.play}`}
         >
           <FaPlay />
         </button>
-        <button
-          onClick={() => {
-            sound?.pause();
-            setPausedAt(sound.seek());
-          }}
-          className={styles.musicButton}
-        >
+        <button onClick={handlePause} className={styles.musicButton}>
           <FaPause />
         </button>
-        <button
-          onClick={() =>
-            setCurrentSongIndex((state) => {
-              state === 2 ? (state = 0) : (state = state + 1);
-              sound?.stop();
-              sound?.play();
-              return state;
-            })
-          }
-          className={styles.musicButton}
-        >
+        <button onClick={handleFastForward} className={styles.musicButton}>
           <FaFastForward />
+        </button>
+        <button onClick={handleVolumeUp} className={styles.musicButton}>
+          <FaVolumeUp />
         </button>
       </div>
     </div>
