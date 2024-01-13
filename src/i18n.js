@@ -1,5 +1,6 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import { configs } from "./config";
 
 const resources = {
   en: {
@@ -124,6 +125,47 @@ const resources = {
       SuccessMessage: "We received your message successfully!",
       ErrorMessage: "An error occured.",
       WarningMessage: "Please Fill the all fields.",
+      packageMaterialsTitle: "Packaging Materials",
+      packagingMaterialText:
+        "Designed to maximize the value of your excellent products and give confidence to your customers, our packaging materials offer strong, durable and aesthetic solutions. With our wide range of products, from transparent foils to custom printed boxes, we provide the appropriate packaging for all your products.",
+      packageMaterialsTitle2: "Why Us ?",
+      packageMaterialsText21:
+        "Variety: A wide range of packaging materials to meet your customers' expectations.",
+      packageMaterialsText22:
+        "Quality: Solutions produced with durable materials and prioritizing product safety and protection.",
+      packageMaterialsText23:
+        "Customization: Special printing and design options that highlight your brand.",
+      packageMaterialsText24:
+        "Fast Delivery: We bring your order to your door quickly and safely.",
+      packageMaterialsTitle3: "How Can I Order ?",
+      packageMaterialsText3:
+        "Choose the packaging materials that suit your needs, choose special design or printing options, call us at the number on our website or contact us via WhatsApp. Wait for your products to arrive at your door with our fast and reliable delivery.",
+      packageMaterialsTitle4: "We would like to see you among us !",
+      packageMaterialsText4: `Contact us at ${configs.contactWhatsappNumber} or ${configs.email2}. We will be happy to help you find the most suitable packaging solutions for you. Berko is with you to strengthen your business and deliver your products safely! `,
+      PackageGalleryTitle: "Our Packaging Products",
+      /** */
+      textileTitle: "Textile consumables",
+      textileText:
+        "Berko is a brand that specializes in textile consumables and offers various and customizable solutions. Our products, designed to make each of your products special and impress your customers, will take your business one step forward.",
+      textileTitle2: "Why Us ? ",
+      textileText21:
+        "Textile Focused Solutions: Various packaging and consumables specially designed for all your textile products.",
+      textileText22:
+        "Creative Designs: Creative and customizable packaging options that define your products.",
+      textileText23:
+        "Eco-Friendly Materials: We offer a sustainable option by combining quality and environmentally friendly materials.",
+      textileText24:
+        "Fast and Flexible Service: Customize your order as you wish, do not waste time with our fast and flexible delivery.",
+      textileTitle3: "How to Place Your Order ?",
+      textileText3:
+        "Choose the textile consumables that suit your needs, call us at the number on our website or contact us via WhatsApp. Wait for your products to arrive at your door with our fast and reliable delivery.",
+      textileTitle4: "Contact Us!",
+      textileText4: `Have any questions or special requests? Contact us at ${configs.contactWhatsappNumber} or ${configs.email2}. 
+      We look forward to making your business more special and impressive together with you !`,
+      textileTitle5: "Discover the Textile of Your Dreams, Berko helps !",
+      textileText5:
+        "You design it, we protect it! Berko is here to support your creativity in the textile world and take your products one step forward. Every stitch, every piece of fabric tells a story, and we add elegance and confidence to that story.",
+      TextileGalleryTitle: "Our Textile Consumables",
     },
   },
   tr: {
@@ -246,6 +288,45 @@ const resources = {
       SuccessMessage: "Mesajını başarıyla aldık!",
       ErrorMessage: "Bir hata oluştu.",
       WarningMessage: "Lütfen tüm alanları doldurunuz.",
+      packageMaterialsTitle: "Ambalaj Malzemeleri",
+      packagingMaterialText:
+        "Mükemmel ürünlerinizin değerini en üst düzeye çıkarmak ve müşterilerinize güven vermek için tasarlanan ambalaj malzemelerimiz, güçlü, dayanıklı ve estetik çözümler sunar. Şeffaf folyolardan özel baskılı kutulara kadar geniş bir ürün yelpazemizle, her türlü ürününüz için uygun ambalajı sağlıyoruz.",
+      packageMaterialsTitle2: "Neden Biz?",
+      packageMaterialsText21:
+        "Çeşitlilik: Müşterilerinizin beklentilerini karşılamak için geniş bir ambalaj malzeme yelpazesi.",
+      packageMaterialsText22:
+        "Kalite: Dayanıklı malzemelerle üretilmiş, ürün güvenliği ve korumasını ön planda tutan çözümler.",
+      packageMaterialsText23:
+        "Özelleştirme: Markanızı öne çıkaran özel baskı ve tasarım seçenekleri.",
+      packageMaterialsText24:
+        "Hızlı Teslimat: Siparişinizi hızlı ve güvenli bir şekilde kapınıza getiriyoruz.",
+      packageMaterialsTitle3: "Nasıl Sipariş Verebilirim?",
+      packageMaterialsText3:
+        "İhtiyacınıza uygun ambalaj malzemelerini seçin, özel tasarım veya baskı seçeneklerini belirleyin, sitemizde bulunan numaradan bizi arayın veya whatsapp üzerinden bizimle iletişime geçin. Hızlı ve güvenilir teslimatımız ile ürünlerinizin kapınıza gelmesini bekleyin.",
+      packageMaterialsTitle4: "Sizi Aramızda Görmek İsteriz!",
+      packageMaterialsText4: `${configs.contactWhatsappNumber} veya ${configs.email2} üzerinden bizimle iletişime geçin. Size en uygun ambalaj çözümlerini bulmamıza yardımcı olmaktan memnuniyet duyarız. İşinizi güçlendirmek ve ürünlerinizi güvenle teslim etmek için Berko yanınızda!`,
+      PackageGalleryTitle: "Ambalaj Ürünlerimiz",
+      textileTitle: "Tekstil sarf malzemeleri",
+      textileText:
+        "Berko, tekstil sarf malzemeleri konusunda uzmanlaşmış, çeşitli ve özelleştirilebilir çözümler sunan bir markadır. Her ürününüzü özel kılmak ve müşterilerinizi etkilemek için tasarlanmış ürünlerimiz, işinizi bir adım öne taşıyacak.",
+      textileTitle2: "Neden Biz?",
+      textileText21:
+        "Tekstil Odaklı Çözümler: Her türlü tekstil ürününüz için özel tasarlanmış çeşitli ambalaj ve sarf malzemeleri.",
+      textileText22:
+        "Yaratıcı Tasarımlar: Ürünlerinizi tanımlayan yaratıcı ve özelleştirilebilir ambalaj seçenekleri.",
+      textileText23:
+        "Çevre Dostu Malzemeler: Kaliteyi ve çevre dostu malzemeleri bir araya getirerek sürdürülebilir bir seçenek sunuyoruz.",
+      textileText24:
+        "Hızlı ve Esnek Hizmet: Siparişinizi istediğiniz gibi özelleştirin, hızlı ve esnek teslimatımızla zaman kaybetmeyin.",
+      textileTitle3: "Siparişinizi Nasıl Verebilirsiniz?",
+      textileText3:
+        "İhtiyacınıza uygun tekstil sarf malzemelerini seçin, sitemizde bulunan numaradan bizi arayın veya whatsapp üzerinden bizimle iletişime geçin. Hızlı ve güvenilir teslimatımız ile ürünlerinizin kapınıza gelmesini bekleyin.",
+      textileTitle4: "Bizimle İletişime Geçin!",
+      textileText4: `Herhangi bir sorunuz veya özel talebiniz mi var? ${configs.contactWhatsappNumber} veya ${configs.email2} ile bizimle iletişime geçin. Sizinle birlikte işinizi daha özel ve etkileyici kılmak için sabırsızlanıyoruz!`,
+      textileTitle5: "Hayalinizdeki Tekstili Keşfedin, Berko yardımcı olur!",
+      textileText5:
+        "Siz tasarlayın, biz koruyalım! Berko, tekstil dünyasındaki yaratıcılığınıza destek olmak ve ürünlerinizi bir adım öne çıkarmak için burada. Her dikiş, her kumaş parçası bir hikaye anlatır, biz de o hikayeye şıklık ve güven katarız.",
+      TextileGalleryTitle: "Tekstil Sarf Ürünlerimiz",
     },
   },
 };

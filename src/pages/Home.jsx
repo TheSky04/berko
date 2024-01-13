@@ -11,10 +11,13 @@ import gallery3 from "../assets/special/gallery/gallery-3.jpg";
 import gallery4 from "../assets/special/gallery/gallery-4.jpg";
 import package7 from "../assets/special/ambalaj/ambalaj-7.jpeg";
 import stationary6 from "../assets/special/kırtasiye/kırtasiye-6.jpeg";
-import textile7 from "../assets/special/textile/tekstil-7.jpg";
-import textile1short from "../assets/special/textile/textile-1-short.png";
-import package3short from "../assets/special/ambalaj/ambalaj-3-short.jpg";
+import package4 from "../assets/special/ambalaj/ambalaj-4-slider.png";
 import ender from "../assets/special/ender.jpeg/";
+import baskilibant from "../assets/special/ambalaj/baskili-bant-slider.png";
+import erkan from "../assets/special/textile/erkan-slider.png";
+import erkan2 from "../assets/special/textile/erkan-gun-slider.png";
+import taggingNeedles from "../assets/special/textile/tagging-needles-slider.png";
+import bantSlider from "../assets/special/textile/bant-slider.png";
 
 function Home({ isMobile }) {
   const [imageNum, setImageNum] = useState(1);
@@ -27,10 +30,13 @@ function Home({ isMobile }) {
         images={[
           package7,
           stationary6,
-          textile7,
-          textile1short,
-          package3short,
           ender,
+          package4,
+          baskilibant,
+          erkan,
+          erkan2,
+          taggingNeedles,
+          bantSlider,
         ]}
         showBullets={true}
         showNavs={true}

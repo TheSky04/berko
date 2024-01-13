@@ -16,12 +16,21 @@
   margin-bottom: 2rem;
 }
 
-.stationaryFeatures p {
+.stationaryFeatures p,
+.stationaryFeatures li {
   font-size: 2rem;
+}
+
+.stationaryFeatures li {
+  margin-left: 2rem;
 }
 
 .bigFont {
   font-size: 4rem !important;
+}
+
+.margin2 {
+  margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 1200px) {
