@@ -70,11 +70,6 @@ function Textile({ isMobile }) {
         <p>{t("textileText4")}</p>
       </div>
 
-      <div className={styles.stationaryFeatures}>
-        <h4>{t("StationaryPageSubTitle4")}</h4>
-        <p>{t("StationaryPageSubText4")}</p>
-      </div>
-
       <Gallery2
         galleryTitle={t("StationaryGallerySubTitle")}
         gallerySubTitle={t("TextileGalleryTitle")}
