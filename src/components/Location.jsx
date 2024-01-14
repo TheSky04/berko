@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import { useState } from "react";
 import styles from "../styles/Location.module.css";
 import { useTranslation } from "react-i18next";
 import { configs } from "../config";

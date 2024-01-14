@@ -1,5 +1,3 @@
-import React from "react";
-import recycle from "../../src/assets/recycle.jpg";
 import styles from "../styles/MenuBar.module.css";
 import { Link } from "react-router-dom";
 

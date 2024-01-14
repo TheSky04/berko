@@ -44,10 +44,10 @@ function ContactForm({ img = true }) {
         "aH11w_cj8lQHCRjB1"
       )
       .then(
-        (result) => {
+        () => {
           showMessage("success", t("SuccessMessage"));
         },
-        (error) => {
+        () => {
           showMessage("error", t("ErrorMessage"));
         }
       );

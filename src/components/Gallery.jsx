@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "../styles/Gallery.module.css";
-import { useTranslation } from "react-i18next";
 
 function Gallery({ galleryTitle, gallerySubTitle, images = [] }) {
-  const { t } = useTranslation();
   return (
     <section className={styles.gallery}>
       <div className={styles.galleryTitle}>
