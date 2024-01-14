@@ -143,7 +143,6 @@ const resources = {
       packageMaterialsTitle4: "We would like to see you among us !",
       packageMaterialsText4: `Contact us at ${configs.contactWhatsappNumber} or ${configs.email2}. We will be happy to help you find the most suitable packaging solutions for you. Berko is with you to strengthen your business and deliver your products safely! `,
       PackageGalleryTitle: "Our Packaging Products",
-      /** */
       textileTitle: "Textile consumables",
       textileText:
         "Berko is a brand that specializes in textile consumables and offers various and customizable solutions. Our products, designed to make each of your products special and impress your customers, will take your business one step forward.",
@@ -178,6 +177,8 @@ const resources = {
       SurveyAnswerNo: "No",
       SurveyChoose: "Choose the option",
       SubmitForm: "Submit",
+      SurveyText:
+        "In order to further improve our company's service quality and better respond to the needs of our valued customers, we are organizing a short survey. This survey will help us understand your experiences and improve our products and services.",
     },
   },
   tr: {
@@ -351,6 +352,8 @@ const resources = {
       SurveyAnswerNo: "Hayır",
       SurveyChoose: "Seçenek işaretleyin",
       SubmitForm: "Gönder",
+      SurveyText:
+        "Firmamızın hizmet kalitesini daha da artırmak ve siz değerli müşterilerimizin ihtiyaçlarına daha iyi cevap verebilmek adına, kısa bir anket düzenliyoruz. Bu anket, sizin deneyimlerinizi anlamamıza ve ürün ve hizmetlerimizi geliştirmemize yardımcı olacaktır.",
     },
   },
 };

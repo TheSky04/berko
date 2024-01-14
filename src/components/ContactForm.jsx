@@ -31,8 +31,6 @@ function ContactForm({ img = true }) {
   const handleSubmitForm = (e) => {
     e.preventDefault();
 
-    console.log("here");
-
     if (disabledButton) {
       showMessage("warning", t("WarningMessage"));
       return;
