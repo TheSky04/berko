@@ -70,6 +70,7 @@ function Survey() {
       );
 
     survey.current.reset();
+    setComment("");
   };
 
   return (
