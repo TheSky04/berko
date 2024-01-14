@@ -166,6 +166,18 @@ const resources = {
       textileText5:
         "You design it, we protect it! Berko is here to support your creativity in the textile world and take your products one step forward. Every stitch, every piece of fabric tells a story, and we add elegance and confidence to that story.",
       TextileGalleryTitle: "Our Textile Consumables",
+      Survey: "Survey",
+      SurveyQuestion1: "1- Did you find our site visually sufficient ?",
+      SurveyQuestion2:
+        "2- Did you find the information about the products on our site sufficient ?",
+      SurveyQuestion3: "3- Did you find the products you were looking for ?",
+      SurveyQuestion4: "4- Have you ordered from us before ?",
+      SurveyQuestion5: "5- How many points would you give to Berko packaging ?",
+      SurveyComment: "Your comment",
+      SurveyAnswerYes: "Yes",
+      SurveyAnswerNo: "No",
+      SurveyChoose: "Choose the option",
+      SubmitForm: "Submit",
     },
   },
   tr: {
@@ -173,7 +185,7 @@ const resources = {
       About: "Hakkımızda",
       Home: "Ana Sayfa",
       Contact: "İletişim",
-      Products: "Ürünler",
+      Products: "Ürünlerimiz",
       Production: "Üretim",
       FooterTitle: "Ürünlerimiz",
       FooterLeftText:
@@ -327,6 +339,18 @@ const resources = {
       textileText5:
         "Siz tasarlayın, biz koruyalım! Berko, tekstil dünyasındaki yaratıcılığınıza destek olmak ve ürünlerinizi bir adım öne çıkarmak için burada. Her dikiş, her kumaş parçası bir hikaye anlatır, biz de o hikayeye şıklık ve güven katarız.",
       TextileGalleryTitle: "Tekstil Sarf Ürünlerimiz",
+      Survey: "Anket",
+      SurveyQuestion1: "1- Sitemizi görsel olarak yeterli buldunuz mu ?",
+      SurveyQuestion2:
+        "2- Sitemizdeki ürünlerin bilgilerini yeterli buldunuz mu ?",
+      SurveyQuestion3: "3- Aradığınız ürünlere ulaşabildiniz mi ?",
+      SurveyQuestion4: "4- Daha önce bizden sipariş verdiniz mi ?",
+      SurveyQuestion5: "5- Berko ambalaja kaç puan verirsiniz ?",
+      SurveyComment: "Yorumunuz",
+      SurveyAnswerYes: "Evet",
+      SurveyAnswerNo: "Hayır",
+      SurveyChoose: "Seçenek işaretleyin",
+      SubmitForm: "Gönder",
     },
   },
 };

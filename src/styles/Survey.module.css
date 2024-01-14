@@ -1,0 +1,36 @@
+.surveyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+  color: #181818;
+}
+
+.surveyContainer h4 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.submitSurvey {
+  background-color: #101d2c;
+  color: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-family: inherit;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.submitSurvey:hover {
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 1000px) {
+  .submitSurvey {
+    margin-left: 3.5rem;
+  }
+}

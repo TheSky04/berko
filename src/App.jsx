@@ -10,6 +10,7 @@ import Stationary from "./products/Stationary";
 import Packaging from "./products/Packaging";
 import Textile from "./products/Textile";
 import { useState, useEffect } from "react";
+import Survey from "./pages/Survey";
 
 function App() {
   const [isMobile, setIsMobile] = useState(false);
@@ -39,6 +40,10 @@ function App() {
         {
           path: "/products/:packaging-materials",
           element: <Packaging isMobile={isMobile} />,
+        },
+        {
+          path: "/survey",
+          element: <Survey />,
         },
       ],
     },

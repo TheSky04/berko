@@ -1,0 +1,73 @@
+.formGroup {
+  display: grid;
+  grid-template-columns: 1fr 40rem;
+  gap: 2rem;
+  background-color: #fff;
+  padding: 5rem;
+  margin-bottom: 5rem;
+  align-items: center;
+}
+
+.formGroup:last-child {
+  margin-bottom: 10rem;
+}
+
+.formGroup label {
+  font-size: 3rem;
+}
+
+.formGroup select,
+.formGroup option {
+  font-size: 3rem;
+  border: none;
+  padding: 0.5rem 2rem;
+  background-color: #e3e3e3;
+  box-shadow: 0 3px 6px rgba(255, 255, 255, 1);
+}
+
+.formGroup select:focus {
+  outline: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 1255px) {
+  .formGroup label {
+    font-size: 2rem;
+  }
+
+  .formGroup select,
+  .formGroup option {
+    font-size: 2rem;
+  }
+
+  .formGroup {
+    grid-template-columns: 1fr 25rem;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .formGroup {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 3rem;
+  }
+
+  .formGroup label {
+    font-size: 1.8rem;
+  }
+
+  .formGroup select,
+  .formGroup option {
+    font-size: 1.8rem;
+  }
+
+  .formGroup:last-child {
+    margin-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .formGroup {
+    padding: 2rem;
+  }
+}
