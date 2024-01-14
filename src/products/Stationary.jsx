@@ -4,13 +4,13 @@ import { useState } from "react";
 import styles from "../styles/Stationary.module.css";
 import { useTranslation } from "react-i18next";
 import Gallery2 from "../components/Gallery2";
-import kırtasiye3edited from "../assets/special/kırtasiye/kırtasiye-3-edited.jpeg";
-import kırtasiye4 from "../assets/special/kırtasiye/kırtasiye-4.jpeg";
-import kırtasiye5 from "../assets/special/kırtasiye/kırtasiye-5.jpeg";
-import kırtasiye6 from "../assets/special/kırtasiye/kırtasiye-6.jpeg";
-import kırtasiye8 from "../assets/special/kırtasiye/kırtasiye-8.jpeg";
-import kırtasiye2 from "../assets/special/kırtasiye/kırtasiye-2.jpeg";
-import bigpoint5 from "../assets/special/kırtasiye/bigpoint-5-slider.png";
+import kırtasiye3edited from "../assets/special/kırtasiye/kırtasiye-3-edited.jpg";
+import kırtasiye4 from "../assets/special/kırtasiye/kırtasiye-4.jpg";
+import kırtasiye5 from "../assets/special/kırtasiye/kırtasiye-5.jpg";
+import kırtasiye6 from "../assets/special/kırtasiye/kırtasiye-6.jpg";
+import kırtasiye8 from "../assets/special/kırtasiye/kırtasiye-8.jpg";
+import kırtasiye2 from "../assets/special/kırtasiye/kırtasiye-2.jpg";
+import bigpoint5 from "../assets/special/kırtasiye/bigpoint-5-slider.jpg";
 
 function Stationary({ isMobile }) {
   const [imageNum, setImageNum] = useState(1);

@@ -2,7 +2,7 @@ import React from "react";
 import ControlledAccordions from "../components/ControlledAccordions";
 import { useTranslation } from "react-i18next";
 import styles from "../styles/FAQ.module.css";
-import ender from "../assets/special/kırtasiye/kırtasiye-2.jpeg";
+import ender from "../assets/special/kırtasiye/kırtasiye-2.jpg";
 
 function FAQ() {
   const { t } = useTranslation();

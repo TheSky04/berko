@@ -5,14 +5,14 @@ import styles from "../styles/Stationary.module.css";
 import { useTranslation } from "react-i18next";
 import Gallery2 from "../components/Gallery2";
 
-import ambalaj4 from "../assets/special/ambalaj/ambalaj-4-slider.png";
-import ambalaj7 from "../assets/special/ambalaj/ambalaj-7.jpeg";
-import baskilibant from "../assets/special/ambalaj/baskili-bant-slider.png";
+import ambalaj4 from "../assets/special/ambalaj/ambalaj-4-slider.jpg";
+import ambalaj7 from "../assets/special/ambalaj/ambalaj-7.jpg";
+import baskilibant from "../assets/special/ambalaj/baskili-bant-slider.jpg";
 
-import ambalaj6 from "../assets/special/ambalaj/ambalaj-6.jpeg";
-import ambalaj8 from "../assets/special/ambalaj/ambalaj-8.jpeg";
-import ambalaj9 from "../assets/special/ambalaj/ambalaj-9.jpeg";
-import ambalaj2 from "../assets/special/ambalaj/ambalaj-2.jpeg";
+import ambalaj6 from "../assets/special/ambalaj/ambalaj-6.jpg";
+import ambalaj8 from "../assets/special/ambalaj/ambalaj-8.jpg";
+import ambalaj9 from "../assets/special/ambalaj/ambalaj-9.jpg";
+import ambalaj2 from "../assets/special/ambalaj/ambalaj-2.jpg";
 
 function Packaging({ isMobile }) {
   const [imageNum, setImageNum] = useState(1);
