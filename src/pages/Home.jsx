@@ -11,13 +11,19 @@ import gallery3 from "../assets/special/gallery/gallery-3.jpg";
 import gallery4 from "../assets/special/gallery/gallery-4.jpg";
 import package7 from "../assets/special/ambalaj/ambalaj-7.jpg";
 import stationary6 from "../assets/special/kırtasiye/kırtasiye-6.jpg";
-import package4 from "../assets/special/ambalaj/ambalaj-4-slider.jpg";
+import package4 from "../assets/special/ambalaj/ambalaj-4-slider.png";
 import ender from "../assets/special/kırtasiye/kırtasiye-2.jpg";
 import baskilibant from "../assets/special/ambalaj/baskili-bant-slider.jpg";
 import erkan from "../assets/special/textile/erkan-slider.jpg";
 import erkan2 from "../assets/special/textile/erkan-gun-slider.jpg";
 import taggingNeedles from "../assets/special/textile/tagging-needles-slider.jpg";
 import bantSlider from "../assets/special/textile/bant-slider.jpg";
+import kalem1 from "../assets/special/kırtasiye/1.jpg";
+import ambalaj10 from "../assets/special/ambalaj/ambalaj-10.jpg";
+import ambalaj3 from "../assets/special/ambalaj/ambalaj-3.jpg";
+import klasör1 from "../assets/special/kırtasiye/klasör-1.png";
+import tanex from "../assets/special/kırtasiye/tanex.png";
+import bant2 from "../assets/special/ambalaj/ambalaj-1.jpg";
 
 function Home({ isMobile }) {
   const [imageNum, setImageNum] = useState(1);
@@ -26,17 +32,16 @@ function Home({ isMobile }) {
     <div>
       <SimpleImageSlider
         width="100%"
-        height={isMobile ? "30vh" : "100vh"}
+        height={isMobile ? "30vh" : "110vh"}
         images={[
+          kalem1,
+          bant2,
+          ambalaj10,
           package7,
-          stationary6,
-          ender,
           package4,
-          baskilibant,
-          erkan,
-          erkan2,
-          taggingNeedles,
-          bantSlider,
+          ambalaj3,
+          klasör1,
+          tanex,
         ]}
         showBullets={true}
         showNavs={true}
