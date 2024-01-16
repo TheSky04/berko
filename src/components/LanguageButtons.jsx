@@ -22,8 +22,8 @@ function LanguageButtons() {
       ></img>
       <img
         src={GermanyFlag}
-        alt="Russian Flag"
-        onClick={() => i18n.changeLanguage("ru")}
+        alt="Germany Flag"
+        onClick={() => i18n.changeLanguage("de")}
       ></img>
       <img
         src={RussianFlag}
@@ -32,8 +32,8 @@ function LanguageButtons() {
       ></img>
       <img
         src={ArabicFlag}
-        alt="Russian Flag"
-        onClick={() => i18n.changeLanguage("ru")}
+        alt="Arabic Flag"
+        onClick={() => i18n.changeLanguage("ar")}
       ></img>
     </div>
   );
