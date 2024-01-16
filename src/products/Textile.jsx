@@ -5,16 +5,6 @@ import styles from "../styles/Stationary.module.css";
 import { useTranslation } from "react-i18next";
 import Gallery2 from "../components/Gallery2";
 
-import taggingNeedles from "../assets/special/textile/tagging-needles-slider.jpg";
-import bantSlider from "../assets/special/textile/bant-slider.jpg";
-import erkan from "../assets/special/textile/erkan-slider.jpg";
-import erkan2 from "../assets/special/textile/erkan-gun-slider.jpg";
-
-import textile3 from "../assets/special/textile/tekstil-3.jpg";
-import textile4 from "../assets/special/textile/tekstil-4.jpg";
-import textile5 from "../assets/special/textile/tekstil-5.jpg";
-import textile6 from "../assets/special/textile/tekstil-6.jpg";
-
 import ust1 from "../assets/special/tekstil/ust1.jpg";
 import ust4 from "../assets/special/tekstil/ust4.jpg";
 import ust6 from "../assets/special/tekstil/ust6.jpg";

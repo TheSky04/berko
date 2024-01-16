@@ -10,16 +10,10 @@ import gallery2 from "../assets/special/gallery/gallery-2.jpg";
 import gallery3 from "../assets/special/gallery/gallery-3.jpg";
 import gallery4 from "../assets/special/gallery/gallery-4.jpg";
 import package7 from "../assets/special/ambalaj/ambalaj-7.jpg";
-import stationary6 from "../assets/special/kırtasiye/kırtasiye-6.jpg";
+
 import package4 from "../assets/special/ambalaj/ambalaj-4-slider.png";
-import ender from "../assets/special/kırtasiye/kırtasiye-2.jpg";
-import baskilibant from "../assets/special/ambalaj/baskili-bant-slider.jpg";
-import erkan from "../assets/special/textile/erkan-slider.jpg";
-import erkan2 from "../assets/special/textile/erkan-gun-slider.jpg";
-import taggingNeedles from "../assets/special/textile/tagging-needles-slider.jpg";
-import bantSlider from "../assets/special/textile/bant-slider.jpg";
 import kalem1 from "../assets/special/kırtasiye/1.jpg";
-import ambalaj10 from "../assets/special/ambalaj/ambalaj-10.jpg";
+import cift from "../assets/special/ambalaj/cift.jpg";
 import ambalaj3 from "../assets/special/ambalaj/ambalaj-3.jpg";
 import klasör1 from "../assets/special/kırtasiye/klasör-1.png";
 import tanex from "../assets/special/kırtasiye/tanex.png";
@@ -37,8 +31,8 @@ function Home({ isMobile }) {
         images={[
           kalem1,
           bant2,
-          ambalaj10,
           package7,
+          cift,
           package4,
           ambalaj3,
           klasör1,

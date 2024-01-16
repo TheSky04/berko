@@ -4,11 +4,7 @@ import { useState } from "react";
 import styles from "../styles/Stationary.module.css";
 import { useTranslation } from "react-i18next";
 import Gallery2 from "../components/Gallery2";
-import kırtasiye4 from "../assets/special/kırtasiye/kırtasiye-4.jpg";
-import kırtasiye5 from "../assets/special/kırtasiye/kırtasiye-5.jpg";
 
-import kırtasiye2 from "../assets/special/kırtasiye/kırtasiye-2.jpg";
-import bigpoint5 from "../assets/special/kırtasiye/bigpoint-5-slider.jpg";
 import kalem1 from "../assets/special/kırtasiye/kalem1.png";
 import klasör1 from "../assets/special/kırtasiye/klasör-1.png";
 import A4 from "../assets/special/kırtasiye/nsr-a4.png";
