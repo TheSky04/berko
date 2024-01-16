@@ -141,7 +141,7 @@ const resources = {
       packageMaterialsText3:
         "Choose the packaging materials that suit your needs, choose special design or printing options, call us at the number on our website or contact us via WhatsApp. Wait for your products to arrive at your door with our fast and reliable delivery.",
       packageMaterialsTitle4: "We would like to see you among us !",
-      packageMaterialsText4: `Contact us at ${configs.contactWhatsappNumber} or ${configs.email2}. We will be happy to help you find the most suitable packaging solutions for you. Berko is with you to strengthen your business and deliver your products safely! `,
+
       PackageGalleryTitle: "Our Packaging Products",
       textileTitle: "Textile consumables",
       textileText:
@@ -159,8 +159,6 @@ const resources = {
       textileText3:
         "Choose the textile consumables that suit your needs, call us at the number on our website or contact us via WhatsApp. Wait for your products to arrive at your door with our fast and reliable delivery.",
       textileTitle4: "Contact Us!",
-      textileText4: `Have any questions or special requests? Contact us at ${configs.contactWhatsappNumber} or ${configs.email2}. 
-      We look forward to making your business more special and impressive together with you !`,
       textileTitle5: "Discover the Textile of Your Dreams, Berko helps !",
       textileText5:
         "You design it, we protect it! Berko is here to support your creativity in the textile world and take your products one step forward. Every stitch, every piece of fabric tells a story, and we add elegance and confidence to that story.",
@@ -179,6 +177,9 @@ const resources = {
       SubmitForm: "Submit",
       SurveyText:
         "In order to further improve our company's service quality and better respond to the needs of our valued customers, we are organizing a short survey. This survey will help us understand your experiences and improve our products and services.",
+      packageMaterialsText4: `Contact us at ${configs.contactWhatsappNumber} or ${configs.email2}. We will be happy to help you find the most suitable packaging solutions for you. Berko is with you to strengthen your business and deliver your products safely! `,
+      textileText4: `Have any questions or special requests? Contact us at ${configs.contactWhatsappNumber} or ${configs.email2}. 
+      We look forward to making your business more special and impressive together with you !`,
     },
   },
   tr: {
@@ -317,7 +318,6 @@ const resources = {
       packageMaterialsText3:
         "İhtiyacınıza uygun ambalaj malzemelerini seçin, özel tasarım veya baskı seçeneklerini belirleyin, sitemizde bulunan numaradan bizi arayın veya whatsapp üzerinden bizimle iletişime geçin. Hızlı ve güvenilir teslimatımız ile ürünlerinizin kapınıza gelmesini bekleyin.",
       packageMaterialsTitle4: "Sizi Aramızda Görmek İsteriz!",
-      packageMaterialsText4: `${configs.contactWhatsappNumber} veya ${configs.email2} üzerinden bizimle iletişime geçin. Size en uygun ambalaj çözümlerini bulmamıza yardımcı olmaktan memnuniyet duyarız. İşinizi güçlendirmek ve ürünlerinizi güvenle teslim etmek için Berko yanınızda!`,
       PackageGalleryTitle: "Ambalaj Ürünlerimiz",
       textileTitle: "Tekstil sarf malzemeleri",
       textileText:
@@ -335,7 +335,6 @@ const resources = {
       textileText3:
         "İhtiyacınıza uygun tekstil sarf malzemelerini seçin, sitemizde bulunan numaradan bizi arayın veya whatsapp üzerinden bizimle iletişime geçin. Hızlı ve güvenilir teslimatımız ile ürünlerinizin kapınıza gelmesini bekleyin.",
       textileTitle4: "Bizimle İletişime Geçin!",
-      textileText4: `Herhangi bir sorunuz veya özel talebiniz mi var? ${configs.contactWhatsappNumber} veya ${configs.email2} ile bizimle iletişime geçin. Sizinle birlikte işinizi daha özel ve etkileyici kılmak için sabırsızlanıyoruz!`,
       textileTitle5: "Hayalinizdeki Tekstili Keşfedin, Berko yardımcı olur!",
       textileText5:
         "Siz tasarlayın, biz koruyalım! Berko, tekstil dünyasındaki yaratıcılığınıza destek olmak ve ürünlerinizi bir adım öne çıkarmak için burada. Her dikiş, her kumaş parçası bir hikaye anlatır, biz de o hikayeye şıklık ve güven katarız.",
@@ -354,6 +353,8 @@ const resources = {
       SubmitForm: "Gönder",
       SurveyText:
         "Firmamızın hizmet kalitesini daha da artırmak ve siz değerli müşterilerimizin ihtiyaçlarına daha iyi cevap verebilmek adına, kısa bir anket düzenliyoruz. Bu anket, sizin deneyimlerinizi anlamamıza ve ürün ve hizmetlerimizi geliştirmemize yardımcı olacaktır.",
+      packageMaterialsText4: `${configs.contactWhatsappNumber} veya ${configs.email2} üzerinden bizimle iletişime geçin. Size en uygun ambalaj çözümlerini bulmamıza yardımcı olmaktan memnuniyet duyarız. İşinizi güçlendirmek ve ürünlerinizi güvenle teslim etmek için Berko yanınızda!`,
+      textileText4: `Herhangi bir sorunuz veya özel talebiniz mi var? ${configs.contactWhatsappNumber} veya ${configs.email2} ile bizimle iletişime geçin. Sizinle birlikte işinizi daha özel ve etkileyici kılmak için sabırsızlanıyoruz!`,
     },
   },
 };
