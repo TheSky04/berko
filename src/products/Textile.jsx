@@ -15,6 +15,15 @@ import textile4 from "../assets/special/textile/tekstil-4.jpg";
 import textile5 from "../assets/special/textile/tekstil-5.jpg";
 import textile6 from "../assets/special/textile/tekstil-6.jpg";
 
+import ust1 from "../assets/special/tekstil/ust1.jpg";
+import ust4 from "../assets/special/tekstil/ust4.jpg";
+import ust6 from "../assets/special/tekstil/ust6.jpg";
+
+import alt0 from "../assets/special/tekstil/alt0.png";
+import alt1 from "../assets/special/tekstil/alt1.jpg";
+import alt2 from "../assets/special/tekstil/alt2.jpg";
+import alt3 from "../assets/special/tekstil/alt3.jpg";
+
 function Textile({ isMobile }) {
   const [imageNum, setImageNum] = useState(1);
   const { t } = useTranslation();
@@ -24,7 +33,7 @@ function Textile({ isMobile }) {
         <SimpleImageSlider
           width="100%"
           height={isMobile ? "30vh" : "100vh"}
-          images={[taggingNeedles, erkan, bantSlider, erkan2]}
+          images={[ust1, ust6, ust4]}
           showBullets={true}
           showNavs={true}
           autoPlay={true}
@@ -66,7 +75,7 @@ function Textile({ isMobile }) {
       <Gallery2
         galleryTitle={t("StationaryGallerySubTitle")}
         gallerySubTitle={t("TextileGalleryTitle")}
-        images={[textile3, textile4, textile5, textile6]}
+        images={[alt0, alt1, alt2, alt3]}
       />
     </div>
   );

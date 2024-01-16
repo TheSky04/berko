@@ -6,7 +6,8 @@ export const configs = {
   email2: "info@berkoambalaj.com",
   address: "Oruçreis Mah. Giyimkent 9.Sokak No:72/A Esenler/İstanbul",
   instagramAdress: "https://www.instagram.com/berkoambalaj/",
-  facebookAdress: "https://www.facebook.com/O.Bedir29",
+  facebookAdress:
+    "https://www.facebook.com/profile.php?id=61555620570323&mibextid=ZbWKwL",
   position: [41.0710832, 28.8731577],
   randomMusic: true,
 };

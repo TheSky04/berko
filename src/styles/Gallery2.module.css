@@ -25,7 +25,7 @@
 
 .gallery img {
   width: 100%;
-  height: 58.8rem;
+  height: 50rem;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -51,5 +51,6 @@
 
   .gallery img {
     max-width: 100%;
+    height: 40rem;
   }
 }

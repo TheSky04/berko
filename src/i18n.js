@@ -350,7 +350,7 @@ const resources = {
       SurveyComment: "Yorumunuz",
       SurveyAnswerYes: "Evet",
       SurveyAnswerNo: "Hayır",
-      SurveyChoose: "Seçenek işaretleyin",
+      SurveyChoose: "Seçenek seçin",
       SubmitForm: "Gönder",
       SurveyText:
         "Firmamızın hizmet kalitesini daha da artırmak ve siz değerli müşterilerimizin ihtiyaçlarına daha iyi cevap verebilmek adına, kısa bir anket düzenliyoruz. Bu anket, sizin deneyimlerinizi anlamamıza ve ürün ve hizmetlerimizi geliştirmemize yardımcı olacaktır.",

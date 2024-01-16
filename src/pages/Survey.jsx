@@ -180,7 +180,7 @@ function Survey() {
             className={styles.submitSurvey}
             onClick={(e) => handleSubmitSurvey(e)}
           >
-            {t("Submit")}
+            {t("SubmitForm")}
           </button>
           {success && (
             <div className={`${styles.message} ${styles.success}`}>{text}</div>

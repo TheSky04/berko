@@ -14,6 +14,10 @@ import ambalaj8 from "../assets/special/ambalaj/ambalaj-8.jpg";
 import ambalaj9 from "../assets/special/ambalaj/ambalaj-9.jpg";
 import ambalaj2 from "../assets/special/ambalaj/ambalaj-2.jpg";
 
+import ambalaj1 from "../assets/special/ambalaj/ambalaj-1.jpg";
+import cop1 from "../assets/special/ambalaj/cop1.png";
+import alt4 from "../assets/special/ambalaj/alt4.jpg";
+
 function Packaging({ isMobile }) {
   const [imageNum, setImageNum] = useState(1);
   const { t } = useTranslation();
@@ -23,7 +27,7 @@ function Packaging({ isMobile }) {
         <SimpleImageSlider
           width="100%"
           height={isMobile ? "30vh" : "100vh"}
-          images={[ambalaj4, ambalaj7, baskilibant]}
+          images={[ambalaj1, ambalaj7, cop1]}
           showBullets={true}
           showNavs={true}
           autoPlay={true}
@@ -59,7 +63,7 @@ function Packaging({ isMobile }) {
       <Gallery2
         galleryTitle={t("StationaryGallerySubTitle")}
         gallerySubTitle={t("PackageGalleryTitle")}
-        images={[ambalaj6, ambalaj8, ambalaj9, ambalaj2]}
+        images={[ambalaj2, ambalaj6, ambalaj9, alt4]}
       />
     </div>
   );

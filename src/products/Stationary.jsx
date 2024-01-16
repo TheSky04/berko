@@ -4,13 +4,18 @@ import { useState } from "react";
 import styles from "../styles/Stationary.module.css";
 import { useTranslation } from "react-i18next";
 import Gallery2 from "../components/Gallery2";
-import kırtasiye3edited from "../assets/special/kırtasiye/kırtasiye-3-edited.jpg";
 import kırtasiye4 from "../assets/special/kırtasiye/kırtasiye-4.jpg";
 import kırtasiye5 from "../assets/special/kırtasiye/kırtasiye-5.jpg";
-import kırtasiye6 from "../assets/special/kırtasiye/kırtasiye-6.jpg";
-import kırtasiye8 from "../assets/special/kırtasiye/kırtasiye-8.jpg";
+
 import kırtasiye2 from "../assets/special/kırtasiye/kırtasiye-2.jpg";
 import bigpoint5 from "../assets/special/kırtasiye/bigpoint-5-slider.jpg";
+import kalem1 from "../assets/special/kırtasiye/kalem1.png";
+import klasör1 from "../assets/special/kırtasiye/klasör-1.png";
+import A4 from "../assets/special/kırtasiye/nsr-a4.png";
+import alt1 from "../assets/special/kırtasiye/kırtasiye-4.jpg";
+import alt2 from "../assets/special/kırtasiye/kırtasiye-alt-1.jpg";
+import kırtasiye8 from "../assets/special/kırtasiye/kırtasiye-8.jpg";
+import kırtasiye6 from "../assets/special/kırtasiye/kırtasiye-6.jpg";
 
 function Stationary({ isMobile }) {
   const [imageNum, setImageNum] = useState(1);
@@ -21,7 +26,7 @@ function Stationary({ isMobile }) {
         <SimpleImageSlider
           width="100%"
           height={isMobile ? "30vh" : "100vh"}
-          images={[bigpoint5, kırtasiye6, kırtasiye3edited]}
+          images={[klasör1, A4, kalem1]}
           showBullets={true}
           showNavs={true}
           autoPlay={true}
@@ -57,7 +62,7 @@ function Stationary({ isMobile }) {
       <Gallery2
         galleryTitle={t("StationaryGallerySubTitle")}
         gallerySubTitle={t("StationaryGalleryTitle")}
-        images={[kırtasiye2, kırtasiye4, kırtasiye5, kırtasiye8]}
+        images={[alt1, alt2, kırtasiye6, kırtasiye8]}
       />
     </div>
   );

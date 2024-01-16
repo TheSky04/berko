@@ -24,6 +24,7 @@ import ambalaj3 from "../assets/special/ambalaj/ambalaj-3.jpg";
 import klasör1 from "../assets/special/kırtasiye/klasör-1.png";
 import tanex from "../assets/special/kırtasiye/tanex.png";
 import bant2 from "../assets/special/ambalaj/ambalaj-1.jpg";
+import a4 from "../assets/special/kırtasiye/nsr-a4.png";
 
 function Home({ isMobile }) {
   const [imageNum, setImageNum] = useState(1);
@@ -41,6 +42,7 @@ function Home({ isMobile }) {
           package4,
           ambalaj3,
           klasör1,
+          a4,
           tanex,
         ]}
         showBullets={true}
