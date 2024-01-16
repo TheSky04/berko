@@ -5,7 +5,7 @@ import styles from "../styles/Stationary.module.css";
 import { useTranslation } from "react-i18next";
 import Gallery2 from "../components/Gallery2";
 
-import kalem1 from "../assets/special/kırtasiye/kalem1.png";
+import kalem1 from "../assets/special/kırtasiye/kalem1.jpg";
 import klasör1 from "../assets/special/kırtasiye/klasör-1.png";
 import A4 from "../assets/special/kırtasiye/nsr-a4.png";
 import alt1 from "../assets/special/kırtasiye/kırtasiye-4.jpg";
