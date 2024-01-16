@@ -1,9 +1,17 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import LanguageButtons from "./LanguageButtons";
 import { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import {
+  FaBars,
+  FaTimes,
+  FaInstagram,
+  FaFacebook,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 import BerkoLogo from "../assets/berko-white-nobackground.png";
+import { FiMail } from "react-icons/fi";
+import { configs } from "../config";
 
 function Navbar({ isMobile }) {
   const { t } = useTranslation();
