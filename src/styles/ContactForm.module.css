@@ -149,14 +149,7 @@
 }
 
 .contactFormImgContainer img {
-  max-width: 80rem;
-  transform: translateY(-30%);
-}
-
-@media only screen and (max-width: 1735px) {
-  .contactFormImgContainer img {
-    transform: translateY(0);
-  }
+  max-width: 55rem;
 }
 
 @media only screen and (max-width: 950px) {
