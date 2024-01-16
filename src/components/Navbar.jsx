@@ -22,6 +22,36 @@ function Navbar({ isMobile }) {
 
   return (
     <header className={`${navOpen} header`}>
+      <div className="navTop">
+        <div className="navTopLeft">
+          <div className="navTopLeftEmail">
+            <FiMail color="#fff" />
+            <p>{configs.email}</p>
+          </div>
+          <div className="navTopLeftAddress">
+            <FaMapMarkerAlt color="#fff" />
+            <p>{configs.address} </p>
+          </div>
+        </div>
+        <div className="navTopCenter">
+          <div className="navTopCenterSocial">
+            <Link to={configs.instagramAdress}>
+              <FaInstagram
+                size={40}
+                color="#fff"
+                className="navTopCenterSocialInstagram"
+              />
+            </Link>
+            <Link to={configs.facebookAdress}>
+              <FaFacebook
+                size={40}
+                color="#fff"
+                className="navTopCenterSocialFacebook"
+              />
+            </Link>
+          </div>
+        </div>
+      </div>
       <nav className="nav">
         <div className="navLogo">
           <img src={BerkoLogo} alt="berko logo" />
