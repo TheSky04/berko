@@ -12,7 +12,7 @@ import gallery4 from "../assets/special/gallery/gallery-4.jpg";
 import package7 from "../assets/special/ambalaj/ambalaj-7.jpg";
 
 import package4 from "../assets/special/ambalaj/ambalaj-4-slider.png";
-import kalem1 from "../assets/special/kırtasiye/1.jpg";
+import kalem1 from "../assets/special/kırtasiye/kalem.jpg";
 import cift from "../assets/special/ambalaj/cift.jpg";
 import ambalaj3 from "../assets/special/ambalaj/baskili-bant-slider.jpg";
 import klasör1 from "../assets/special/kırtasiye/klasör-1.png";
