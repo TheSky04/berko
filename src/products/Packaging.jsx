@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import Gallery2 from "../components/Gallery2";
 
 import ambalaj7 from "../assets/special/ambalaj/ambalaj-7.jpg";
-import ambalaj6 from "../assets/special/ambalaj/ambalaj-6.jpg";
+import cuval from "../assets/special/ambalaj/cuval.jpeg";
 import ambalaj9 from "../assets/special/ambalaj/ambalaj-9.jpg";
 import ambalaj2 from "../assets/special/ambalaj/ambalaj-2.jpg";
 
@@ -59,7 +59,7 @@ function Packaging({ isMobile }) {
       <Gallery2
         galleryTitle={t("StationaryGallerySubTitle")}
         gallerySubTitle={t("PackageGalleryTitle")}
-        images={[ambalaj2, ambalaj6, ambalaj9, alt4]}
+        images={[ambalaj2, cuval, ambalaj9, alt4]}
       />
     </div>
   );

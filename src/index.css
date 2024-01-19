@@ -224,13 +224,15 @@ body {
 
   .navTop {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr auto;
+    padding-bottom: 0.7rem;
+    padding-top: 0.7rem;
   }
 
   .navTopLeft {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 5px;
   }
 
   .navLogo img {
