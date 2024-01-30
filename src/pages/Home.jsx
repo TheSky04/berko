@@ -15,7 +15,7 @@ import package4 from "../assets/special/ambalaj/ambalaj-4-slider.png";
 import kalem1 from "../assets/special/kırtasiye/kalem.jpg";
 import cift from "../assets/special/ambalaj/cift.jpg";
 import ambalaj3 from "../assets/special/ambalaj/baskili-bant-slider.jpg";
-import klasör1 from "../assets/special/kırtasiye/klasör.jpg";
+import folder1 from "../assets/special/kırtasiye/folder-1.png";
 import tanex from "../assets/special/kırtasiye/tanex.png";
 import bant2 from "../assets/special/ambalaj/ambalaj-1.jpg";
 import a4 from "../assets/special/kırtasiye/nsr-a4.png";
@@ -35,7 +35,7 @@ function Home({ isMobile }) {
           cift,
           package4,
           ambalaj3,
-          klasör1,
+          folder1,
           a4,
           tanex,
         ]}

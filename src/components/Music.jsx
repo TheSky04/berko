@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Howl } from "howler";
-import EbruGundes from "../music/Ebru Gündeş - Yakışıklı (Official Audio).mp3";
-import NesetErtas from "../music/Tatlı Dile Güler Yüze.mp3";
-import ModernTalking from "../music/Modern Talking - Youre My Heart, Youre My Soul (Official Music Video).mp3";
+import EbruGundes from "../music/ebru.mp3";
+import NesetErtas from "../music/tat.mp3";
+import ModernTalking from "../music/modern.mp3"
 import styles from "../styles/Music.module.css";
 import { FaPlay, FaPause, FaFastBackward, FaFastForward } from "react-icons/fa";
 import { configs } from "../config";

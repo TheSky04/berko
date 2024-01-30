@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import Gallery2 from "../components/Gallery2";
 
 import kalem1 from "../assets/special/kırtasiye/kalem1.jpg";
-import klasör1 from "../assets/special/kırtasiye/klasör.jpg";
+import folder1 from "../assets/special/kırtasiye/folder-1.png";
 import A4 from "../assets/special/kırtasiye/nsr-a4.png";
 import alt1 from "../assets/special/kırtasiye/kırtasiye-4.jpg";
 import alt2 from "../assets/special/kırtasiye/kırtasiye-alt-1.jpg";
@@ -22,7 +22,7 @@ function Stationary({ isMobile }) {
         <SimpleImageSlider
           width="100%"
           height={isMobile ? "30vh" : "100vh"}
-          images={[klasör1, A4, kalem1]}
+          images={[folder1, A4, kalem1]}
           showBullets={true}
           showNavs={true}
           autoPlay={true}
